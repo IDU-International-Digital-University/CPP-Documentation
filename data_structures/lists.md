@@ -200,7 +200,7 @@ for (string car : cars) {
 * Boshidan va oxiridan juda tez ishlaydi
 * Tez-tez qo‘shish/o‘chirish talab qilinganda ideal
 
-Keyingi mavzu: [**Stack (LIFO)**](/data_structures/stack.md)
+Keyingi mavzu: [**Stack (LIFO)**](/data_structures/stacks.md)
 
 ---
 

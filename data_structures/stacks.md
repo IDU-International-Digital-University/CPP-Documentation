@@ -182,7 +182,7 @@ Stack va Queue ko‘pincha birga o‘rganiladi.
 * Juda tez (O(1))
 * Algoritmlar va real tizimlarda keng qo‘llaniladi
 
-Keyingi mavzu: [**Queue (FIFO)**](/data_structures/stacks.md)
+Keyingi mavzu: [**Queue (FIFO)**](/data_structures/queues.md)
 
 ---
 
