@@ -74,17 +74,17 @@ sort(numbers.rbegin(), numbers.rend()); // teskari tartiblash
 
 Iteratorlar STL ma'lumotlar tuzilmalarini qulay va samarali boshqarish imkonini beradi.
 
-Keyingi mavzu: [**Algorithms**](/data_structures/algorithms.md)
+Keyingi mavzu: [**Algorithms**](/docs/data_structures/algorithms.md)
 
 ---
 
 #### Menu:
-- [**C++ Vectors**](/data_structures/vectors.md)
-- [**C++ Lists**](/data_structures/lists.md)
-- [**C++ Stack**](/data_structures/stacks.md)
-- [**C++ Queue**](/data_structures/queues.md)
-- [**C++ Deque**](/data_structures/deques.md)
-- [**C++ Set**](/data_structures/sets.md)
-- [**C++ Map**](/data_structures/maps.md)
-- [**C++ Iterators**](/data_structures/iterators.md)
-- [**C++ Algorithms**](/data_structures/algorithms.md)
+- [**C++ Vectors**](/docs/data_structures/vectors.md)
+- [**C++ Lists**](/docs/data_structures/lists.md)
+- [**C++ Stack**](/docs/data_structures/stacks.md)
+- [**C++ Queue**](/docs/data_structures/queues.md)
+- [**C++ Deque**](/docs/data_structures/deques.md)
+- [**C++ Set**](/docs/data_structures/sets.md)
+- [**C++ Map**](/docs/data_structures/maps.md)
+- [**C++ Iterators**](/docs/data_structures/iterators.md)
+- [**C++ Algorithms**](/docs/data_structures/algorithms.md)

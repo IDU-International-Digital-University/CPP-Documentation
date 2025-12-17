@@ -78,11 +78,11 @@ Keyingi bo‘limlarda har bir data structure alohida ko‘rib chiqilib, amaliy m
 
 ---
 #### Keyingi mavzular
- - [C++ Vectors](/data_structures/vectors.md)
- - [C++ Queues](/data_structures/queues.md)
- - [C++ Deque](/data_structures/deques.md)
- - [C++ Sets](/data_structures/sets.md)
- - [C++ Maps](/data_structures/maps.md)
- - [C++ Iterators](/data_structures/iterators.md)
- - [C++ Algorithms](/data_structures/algorithms.md)
+ - [C++ Vectors](/docs/data_structures/vectors.md)
+ - [C++ Queues](/docs/data_structures/queues.md)
+ - [C++ Deque](/docs/data_structures/deques.md)
+ - [C++ Sets](/docs/data_structures/sets.md)
+ - [C++ Maps](/docs/data_structures/maps.md)
+ - [C++ Iterators](/docs/data_structures/iterators.md)
+ - [C++ Algorithms](/docs/data_structures/algorithms.md)
  - **...**
