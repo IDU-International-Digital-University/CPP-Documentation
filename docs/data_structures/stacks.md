@@ -182,16 +182,16 @@ Stack va Queue ko‘pincha birga o‘rganiladi.
 * Juda tez (O(1))
 * Algoritmlar va real tizimlarda keng qo‘llaniladi
 
-Keyingi mavzu: [**Queue (FIFO)**](/docs/data_structures/queues.md)
+Keyingi mavzu: [**Queue (FIFO)**](/docs/data_structures/queues.html)
 
 ---
 
 #### Menu:
-- [**C++ Vectors**](/docs/data_structures/vectors.md)
-- [**C++ Lists**](/docs/data_structures/lists.md)
-- [**C++ Queue**](/docs/data_structures/queues.md)
-- [**C++ Deque**](/docs/data_structures/deques.md)
-- [**C++ Set**](/docs/data_structures/sets.md)
-- [**C++ Map**](/docs/data_structures/maps.md)
-- [**C++ Iterators**](/docs/data_structures/iterators.md)
-- [**C++ Algorithms**](/docs/data_structures/algorithms.md)
+- [**C++ Vectors**](/docs/data_structures/vectors.html)
+- [**C++ Stack**](/docs/data_structures/stacks.html)
+- [**C++ Queue**](/docs/data_structures/queues.html)
+- [**C++ Deque**](/docs/data_structures/deques.html)
+- [**C++ Set**](/docs/data_structures/sets.html)
+- [**C++ Map**](/docs/data_structures/maps.html)
+- [**C++ Iterators**](/docs/data_structures/iterators.html)
+- [**C++ Algorithms**](/docs/data_structures/algorithms.html)

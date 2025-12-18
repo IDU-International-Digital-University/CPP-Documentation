@@ -123,16 +123,16 @@ map<string, int, greater<string>> people;
 * `.insert()`, `[]`, `.erase()`, `.clear()`, `.size()`, `.empty()`, `.count()` funksiyalari mavjud
 * Algoritmik masalalar va look-uplar uchun qulay
 
-Keyingi mavzu: [**Iterators**](/docs/data_structures/iterators.md)
+Keyingi mavzu: [**Iterators**](/docs/data_structures/iterators.html)
 
 ---
 
 #### Menu:
-- [**C++ Vectors**](/docs/data_structures/vectors.md)
-- [**C++ Lists**](/docs/data_structures/lists.md)
-- [**C++ Stack**](/docs/data_structures/stacks.md)
-- [**C++ Queue**](/docs/data_structures/queues.md)
-- [**C++ Deque**](/docs/data_structures/deques.md)
-- [**C++ Set**](/docs/data_structures/sets.md)
-- [**C++ Iterators**](/docs/data_structures/iterators.md)
-- [**C++ Algorithms**](/docs/data_structures/algorithms.md)
+- [**C++ Vectors**](/docs/data_structures/vectors.html)
+- [**C++ Stack**](/docs/data_structures/stacks.html)
+- [**C++ Queue**](/docs/data_structures/queues.html)
+- [**C++ Deque**](/docs/data_structures/deques.html)
+- [**C++ Set**](/docs/data_structures/sets.html)
+- [**C++ Map**](/docs/data_structures/maps.html)
+- [**C++ Iterators**](/docs/data_structures/iterators.html)
+- [**C++ Algorithms**](/docs/data_structures/algorithms.html)
