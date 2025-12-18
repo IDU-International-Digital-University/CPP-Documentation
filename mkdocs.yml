@@ -1,0 +1,17 @@
+site_name: C++ Data Structures & Algorithms
+site_url: https://idu-international-digital-university.github.io/CPP-Documentation/
+
+nav:
+  - Home: index.md
+  - Data Structures:
+      - Vectors: data_structures/vectors.md
+      - Stack: data_structures/stacks.md
+      - Queue: data_structures/queues.md
+      - Deque: data_structures/deques.md
+      - Set: data_structures/sets.md
+      - Map: data_structures/maps.md
+      - Iterators: data_structures/iterators.md
+      - Algorithms: data_structures/algorithms.md
+
+theme:
+  name: material

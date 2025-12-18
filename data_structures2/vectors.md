@@ -184,16 +184,16 @@ for (int i = 0; i < nums.size(); i++) {
 * Index orqali tez ishlaydi
 * Katta loyihalar uchun juda qulay
 
-Keyingi mavzu: [**List (Linked List)**](/data_structures/lists.md)
+Keyingi mavzu: [**List (Linked List)**](/docs/data_structures/lists.md)
 
 ---
 
 #### Menu:
-- [**C++ Vectors**](/data_structures/vectors.md)
-- [**C++ Stack**](/data_structures/stacks.md)
-- [**C++ Queue**](/data_structures/queues.md)
-- [**C++ Deque**](/data_structures/deques.md)
-- [**C++ Set**](/data_structures/sets.md)
-- [**C++ Map**](/data_structures/maps.md)
-- [**C++ Iterators**](/data_structures/iterators.md)
-- [**C++ Algorithms**](/data_structures/algorithms.md)
+- [**C++ Vectors**](/docs/data_structures/vectors.md)
+- [**C++ Stack**](/docs/data_structures/stacks.md)
+- [**C++ Queue**](/docs/data_structures/queues.md)
+- [**C++ Deque**](/docs/data_structures/deques.md)
+- [**C++ Set**](/docs/data_structures/sets.md)
+- [**C++ Map**](/docs/data_structures/maps.md)
+- [**C++ Iterators**](/docs/data_structures/iterators.md)
+- [**C++ Algorithms**](/docs/data_structures/algorithms.md)
