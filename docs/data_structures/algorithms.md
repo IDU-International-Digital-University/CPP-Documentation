@@ -110,11 +110,11 @@ Bugunga Mavzular tugadi 😊
 ---
 
 #### Menu:
-- [**C++ Vectors**](/docs/data_structures/vectors.html)
-- [**C++ Stack**](/docs/data_structures/stacks.html)
-- [**C++ Queue**](/docs/data_structures/queues.html)
-- [**C++ Deque**](/docs/data_structures/deques.html)
-- [**C++ Set**](/docs/data_structures/sets.html)
-- [**C++ Map**](/docs/data_structures/maps.html)
-- [**C++ Iterators**](/docs/data_structures/iterators.html)
-- [**C++ Algorithms**](/docs/data_structures/algorithms.html)
+- [**C++ Vectors**](/docs/data_structures/vectors.md)
+- [**C++ Stack**](/docs/data_structures/stacks.md)
+- [**C++ Queue**](/docs/data_structures/queues.md)
+- [**C++ Deque**](/docs/data_structures/deques.md)
+- [**C++ Set**](/docs/data_structures/sets.md)
+- [**C++ Map**](/docs/data_structures/maps.md)
+- [**C++ Iterators**](/docs/data_structures/iterators.md)
+- [**C++ Algorithms**](/docs/data_structures/algorithms.md)

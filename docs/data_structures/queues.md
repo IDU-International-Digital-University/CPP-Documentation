@@ -183,16 +183,16 @@ Ikkalasi ham real tizimlarda juda keng qo‘llaniladi.
 * Juda tez (O(1)) amallar
 * Rejalashtirish va navbat tizimlari uchun ideal
 
-Keyingi mavzu: [**Deque (Double-ended Queue)**](/CPP-Documentation/docs/data_structures/deques.html)
+Keyingi mavzu: [**Deque (Double-ended Queue)**](/docs/data_structures/deques.md)
 
 ---
 
 #### Menu:
-- [**C++ Vectors**](/CPP-Documentation/docs/data_structures/vectors.html)
-- [**C++ Stack**](/CPP-Documentation/docs/data_structures/stacks.html)
-- [**C++ Queue**](/CPP-Documentation/docs/data_structures/queues.html)
-- [**C++ Deque**](/CPP-Documentation/docs/data_structures/deques.html)
-- [**C++ Set**](/CPP-Documentation/docs/data_structures/sets.html)
-- [**C++ Map**](/CPP-Documentation/docs/data_structures/maps.html)
-- [**C++ Iterators**](/CPP-Documentation/docs/data_structures/iterators.html)
-- [**C++ Algorithms**](/CPP-Documentation/docs/data_structures/algorithms.html)
+- [**C++ Vectors**](/docs/data_structures/vectors.md)
+- [**C++ Stack**](/docs/data_structures/stacks.md)
+- [**C++ Queue**](/docs/data_structures/queues.md)
+- [**C++ Deque**](/docs/data_structures/deques.md)
+- [**C++ Set**](/docs/data_structures/sets.md)
+- [**C++ Map**](/docs/data_structures/maps.md)
+- [**C++ Iterators**](/docs/data_structures/iterators.md)
+- [**C++ Algorithms**](/docs/data_structures/algorithms.md)
