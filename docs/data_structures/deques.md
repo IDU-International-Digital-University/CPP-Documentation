@@ -217,15 +217,3 @@ for (string car : cars) {
 * Murakkab algoritmlar uchun juda qulay
 
 Keyingi mavzu: [**Set (Unique elements)**](/data_structures/sets.md)
-
----
-
-#### Menu:
-- [**C++ Vectors**](/data_structures/vectors.md)
-- [**C++ Stack**](/data_structures/stacks.md)
-- [**C++ Queue**](/data_structures/queues.md)
-- [**C++ Deque**](/data_structures/deques.md)
-- [**C++ Set**](/data_structures/sets.md)
-- [**C++ Map**](/data_structures/maps.md)
-- [**C++ Iterators**](/data_structures/iterators.md)
-- [**C++ Algorithms**](/data_structures/algorithms.md)

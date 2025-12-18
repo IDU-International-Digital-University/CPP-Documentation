@@ -142,15 +142,3 @@ for (string car : cars) {
 * Algoritmlar va matematik hisob-kitoblar uchun qulay
 
 Keyingi mavzu: [**Map (STL)**](/data_structures/maps.md)
-
----
-
-#### Menu:
-- [**C++ Vectors**](/data_structures/vectors.md)
-- [**C++ Stack**](/data_structures/stacks.md)
-- [**C++ Queue**](/data_structures/queues.md)
-- [**C++ Deque**](/data_structures/deques.md)
-- [**C++ Set**](/data_structures/sets.md)
-- [**C++ Map**](/data_structures/maps.md)
-- [**C++ Iterators**](/data_structures/iterators.md)
-- [**C++ Algorithms**](/data_structures/algorithms.md)

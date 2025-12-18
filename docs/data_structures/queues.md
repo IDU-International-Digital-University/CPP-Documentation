@@ -184,15 +184,3 @@ Ikkalasi ham real tizimlarda juda keng qo‘llaniladi.
 * Rejalashtirish va navbat tizimlari uchun ideal
 
 Keyingi mavzu: [**Deque (Double-ended Queue)**](/data_structures/deques.md)
-
----
-
-#### Menu:
-- [**C++ Vectors**](/data_structures/vectors.md)
-- [**C++ Stack**](/data_structures/stacks.md)
-- [**C++ Queue**](/data_structures/queues.md)
-- [**C++ Deque**](/data_structures/deques.md)
-- [**C++ Set**](/data_structures/sets.md)
-- [**C++ Map**](/data_structures/maps.md)
-- [**C++ Iterators**](/data_structures/iterators.md)
-- [**C++ Algorithms**](/data_structures/algorithms.md)

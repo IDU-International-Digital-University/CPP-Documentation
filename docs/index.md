@@ -75,14 +75,3 @@ STL uchta asosiy komponentdan iborat:
 Kompyuter fanida **Data Structures va Algorithms** doimo birga ishlaydi. Data structure algoritmlarsiz foydasiz, algoritmlar esa data structure’siz ishlay olmaydi.
 
 Keyingi bo‘limlarda har bir data structure alohida ko‘rib chiqilib, amaliy misollar bilan tushuntiriladi.
-
----
-#### Keyingi mavzular
- - [C++ Vectors](/data_structures/vectors.md)
- - [C++ Queues](/data_structures/queues.md)
- - [C++ Deque](/data_structures/deques.md)
- - [C++ Sets](/data_structures/sets.md)
- - [C++ Maps](/data_structures/maps.md)
- - [C++ Iterators](/data_structures/iterators.md)
- - [C++ Algorithms](/data_structures/algorithms.md)
- - **...**
