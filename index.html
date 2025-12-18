@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>C++ Data Structures & Algorithms</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">C++ Data Structures & Algorithms</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="." class="nav-link active" aria-current="page">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Data Structures</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="data_structures/vectors/" class="dropdown-item">Vectors</a>
+</li>
+                                    
+<li>
+    <a href="data_structures/stacks/" class="dropdown-item">Stack</a>
+</li>
+                                    
+<li>
+    <a href="data_structures/queues/" class="dropdown-item">Queue</a>
+</li>
+                                    
+<li>
+    <a href="data_structures/deques/" class="dropdown-item">Deque</a>
+</li>
+                                    
+<li>
+    <a href="data_structures/sets/" class="dropdown-item">Set</a>
+</li>
+                                    
+<li>
+    <a href="data_structures/maps/" class="dropdown-item">Map</a>
+</li>
+                                    
+<li>
+    <a href="data_structures/iterators/" class="dropdown-item">Iterators</a>
+</li>
+                                    
+<li>
+    <a href="data_structures/algorithms/" class="dropdown-item">Algorithms</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="data_structures/vectors/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#c-data-structures-and-stl" class="nav-link">C++ Data Structures and STL</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#kirish-introduction" class="nav-link">Kirish (Introduction)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#c-stl-nima" class="nav-link">C++ STL nima?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#eng-kop-ishlatiladigan-stl-data-structures" class="nav-link">Eng ko‘p ishlatiladigan STL Data Structures</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#stl-dan-foydalanish" class="nav-link">STL dan foydalanish</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#stl-ning-asosiy-tushunchalari" class="nav-link">STL ning asosiy tushunchalari</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="c-data-structures-and-stl">C++ Data Structures and STL</h1>
+<h2 id="kirish-introduction">Kirish (Introduction)</h2>
+<p>Ushbu repository <strong>C++ dasturlash tilidagi Data Structures (Ma’lumotlar tuzilmalari)</strong> va <strong>STL (Standard Template Library)</strong> mavzularini tushunarli va amaliy tarzda o‘rganish uchun mo‘ljallangan.</p>
+<p>Ma’lumotlar tuzilmalari — bu ma’lumotlarni xotirada saqlash va tartibli holda boshqarish usullaridir. Masalan, <strong>array (massiv)</strong> bitta o‘zgaruvchi ichida bir nechta elementlarni saqlash imkonini beradigan eng oddiy data structure hisoblanadi.</p>
+<p>C++ tilida array’dan tashqari yana ko‘plab ma’lumotlar tuzilmalari mavjud bo‘lib, ularning aksariyati <strong>STL (Standard Template Library)</strong> tarkibiga kiradi. Har bir data structure ma’lumotlar bilan ishlashning turli holatlari uchun moslashtirilgan.</p>
+<h2 id="c-stl-nima">C++ STL nima?</h2>
+<p><strong>STL (Standard Template Library)</strong> — bu C++ tilidagi tayyor <strong>data structures (containers)</strong> va <strong>algoritmlar</strong> to‘plamidir. STL yordamida ma’lumotlarni samarali saqlash, qidirish, saralash va qayta ishlash mumkin.</p>
+<p>Agar data structures ma’lumotlarni saqlash uchun xizmat qilsa, <strong>algoritmlar</strong> ushbu ma’lumotlar ustida turli amallarni bajarish uchun ishlatiladi (masalan: qidirish, saralash, o‘chirish).</p>
+<p>To‘g‘ri tanlangan data structure va algoritm:</p>
+<ul>
+<li>Dastur tezroq ishlashini ta’minlaydi</li>
+<li>Katta hajmdagi ma’lumotlar bilan samarali ishlashga yordam beradi</li>
+<li>Kodni soddaroq va tushunarliroq qiladi</li>
+</ul>
+<h2 id="eng-kop-ishlatiladigan-stl-data-structures">Eng ko‘p ishlatiladigan STL Data Structures</h2>
+<table>
+<thead>
+<tr>
+<th>Data Structure</th>
+<th>Tavsif</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Vector</strong></td>
+<td>Massivga o‘xshash, lekin o‘lchami dinamik. Elementlar odatda oxiridan qo‘shiladi va o‘chiriladi. Index orqali murojaat qilish mumkin.</td>
+</tr>
+<tr>
+<td><strong>List</strong></td>
+<td>Ketma-ket bog‘langan elementlardan iborat. Elementlar boshidan va oxiridan qo‘shilishi/o‘chirilishi mumkin. Index orqali murojaat qilib bo‘lmaydi.</td>
+</tr>
+<tr>
+<td><strong>Stack</strong></td>
+<td>LIFO (Last In, First Out) tamoyiliga asoslangan. Elementlar faqat yuqorisidan qo‘shiladi va olinadi.</td>
+</tr>
+<tr>
+<td><strong>Queue</strong></td>
+<td>FIFO (First In, First Out) tamoyiliga asoslangan. Elementlar oxiridan qo‘shilib, boshidan olinadi.</td>
+</tr>
+<tr>
+<td><strong>Deque</strong></td>
+<td>Ikki tomonlama queue. Elementlarni boshidan ham, oxiridan ham qo‘shish va o‘chirish mumkin. Index orqali murojaat qilish mumkin.</td>
+</tr>
+<tr>
+<td><strong>Set</strong></td>
+<td>Faqat noyob (unique) elementlarni saqlaydi. Index mavjud emas.</td>
+</tr>
+<tr>
+<td><strong>Map</strong></td>
+<td><code>key/value</code> (kalit/qiymat) juftliklarini saqlaydi. Elementlarga key orqali murojaat qilinadi.</td>
+</tr>
+</tbody>
+</table>
+<p>Qaysi data structure’ni tanlash — sizning vazifangizga bog‘liq.</p>
+<h2 id="stl-dan-foydalanish">STL dan foydalanish</h2>
+<p>Har bir data structure’dan foydalanish uchun mos <strong>header file</strong> ni qo‘shish kerak:</p>
+<pre><code class="language-cpp">#include &lt;vector&gt;
+#include &lt;list&gt;
+#include &lt;set&gt;
+#include &lt;map&gt;
+#include &lt;stack&gt;
+#include &lt;queue&gt;
+</code></pre>
+<h3 id="vector-misoli">Vector misoli</h3>
+<pre><code class="language-cpp">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+using namespace std;
+
+int main() {
+    vector&lt;string&gt; cars = {&quot;Volvo&quot;, &quot;BMW&quot;, &quot;Ford&quot;, &quot;Mazda&quot;};
+
+    for (string car : cars) {
+        cout &lt;&lt; car &lt;&lt; &quot;\n&quot;;
+    }
+    return 0;
+}
+</code></pre>
+<h2 id="stl-ning-asosiy-tushunchalari">STL ning asosiy tushunchalari</h2>
+<p>STL uchta asosiy komponentdan iborat:</p>
+<ul>
+<li><strong>Containers</strong> — ma’lumotlarni saqlash uchun (vector, list, map, va hokazo)</li>
+<li><strong>Iterators</strong> — container ichidagi elementlarga murojaat qilish uchun</li>
+<li><strong>Algorithms</strong> — ma’lumotlar ustida amallar bajarish uchun (<code>sort()</code>, <code>find()</code> va boshqalar)</li>
+</ul>
+<p>Kompyuter fanida <strong>Data Structures va Algorithms</strong> doimo birga ishlaydi. Data structure algoritmlarsiz foydasiz, algoritmlar esa data structure’siz ishlay olmaydi.</p>
+<p>Keyingi bo‘limlarda har bir data structure alohida ko‘rib chiqilib, amaliy misollar bilan tushuntiriladi.</p>
+<hr />
+<h4 id="keyingi-mavzular">Keyingi mavzular</h4>
+<ul>
+<li><a href="/data_structures/vectors.md">C++ Vectors</a></li>
+<li><a href="/data_structures/queues.md">C++ Queues</a></li>
+<li><a href="/data_structures/deques.md">C++ Deque</a></li>
+<li><a href="/data_structures/sets.md">C++ Sets</a></li>
+<li><a href="/data_structures/maps.md">C++ Maps</a></li>
+<li><a href="/data_structures/iterators.md">C++ Iterators</a></li>
+<li><a href="/data_structures/algorithms.md">C++ Algorithms</a></li>
+<li><strong>...</strong></li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2025-12-18 10:11:22.643405+00:00
+-->
