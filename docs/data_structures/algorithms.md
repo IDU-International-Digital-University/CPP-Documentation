@@ -118,4 +118,3 @@ Bugunga Mavzular tugadi 😊
 - [**C++ Set**](/docs/data_structures/sets.md)
 - [**C++ Map**](/docs/data_structures/maps.md)
 - [**C++ Iterators**](/docs/data_structures/iterators.md)
-- [**C++ Algorithms**](/docs/data_structures/algorithms.md)

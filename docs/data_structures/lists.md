@@ -206,7 +206,6 @@ Keyingi mavzu: [**Stack (LIFO)**](/docs/data_structures/stacks.md)
 
 #### Menu:
 - [**C++ Vectors**](/docs/data_structures/vectors.md)
-- [**C++ Lists**](/docs/data_structures/lists.md)
 - [**C++ Stack**](/docs/data_structures/stacks.md)
 - [**C++ Queue**](/docs/data_structures/queues.md)
 - [**C++ Deque**](/docs/data_structures/deques.md)

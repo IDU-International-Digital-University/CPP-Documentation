@@ -189,7 +189,6 @@ Keyingi mavzu: [**List (Linked List)**](/docs/data_structures/lists.md)
 ---
 
 #### Menu:
-- [**C++ Vectors**](/docs/data_structures/vectors.md)
 - [**C++ Lists**](/docs/data_structures/lists.md)
 - [**C++ Stack**](/docs/data_structures/stacks.md)
 - [**C++ Queue**](/docs/data_structures/queues.md)

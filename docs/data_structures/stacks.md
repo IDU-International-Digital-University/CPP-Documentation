@@ -189,7 +189,6 @@ Keyingi mavzu: [**Queue (FIFO)**](/docs/data_structures/queues.md)
 #### Menu:
 - [**C++ Vectors**](/docs/data_structures/vectors.md)
 - [**C++ Lists**](/docs/data_structures/lists.md)
-- [**C++ Stack**](/docs/data_structures/stacks.md)
 - [**C++ Queue**](/docs/data_structures/queues.md)
 - [**C++ Deque**](/docs/data_structures/deques.md)
 - [**C++ Set**](/docs/data_structures/sets.md)
