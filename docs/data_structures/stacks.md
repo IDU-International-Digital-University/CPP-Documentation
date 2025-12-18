@@ -182,16 +182,16 @@ Stack va Queue ko‘pincha birga o‘rganiladi.
 * Juda tez (O(1))
 * Algoritmlar va real tizimlarda keng qo‘llaniladi
 
-Keyingi mavzu: [**Queue (FIFO)**](/docs/data_structures/queues.html)
+Keyingi mavzu: [**Queue (FIFO)**](/CPP-Documentation/docs/data_structures/queues.html)
 
 ---
 
 #### Menu:
-- [**C++ Vectors**](/docs/data_structures/vectors.html)
-- [**C++ Stack**](/docs/data_structures/stacks.html)
-- [**C++ Queue**](/docs/data_structures/queues.html)
-- [**C++ Deque**](/docs/data_structures/deques.html)
-- [**C++ Set**](/docs/data_structures/sets.html)
-- [**C++ Map**](/docs/data_structures/maps.html)
-- [**C++ Iterators**](/docs/data_structures/iterators.html)
-- [**C++ Algorithms**](/docs/data_structures/algorithms.html)
+- [**C++ Vectors**](/CPP-Documentation/docs/data_structures/vectors.html)
+- [**C++ Stack**](/CPP-Documentation/docs/data_structures/stacks.html)
+- [**C++ Queue**](/CPP-Documentation/docs/data_structures/queues.html)
+- [**C++ Deque**](/CPP-Documentation/docs/data_structures/deques.html)
+- [**C++ Set**](/CPP-Documentation/docs/data_structures/sets.html)
+- [**C++ Map**](/CPP-Documentation/docs/data_structures/maps.html)
+- [**C++ Iterators**](/CPP-Documentation/docs/data_structures/iterators.html)
+- [**C++ Algorithms**](/CPP-Documentation/docs/data_structures/algorithms.html)
