@@ -31,6 +31,9 @@
     
       <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
       
 
 
@@ -57,7 +60,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -108,6 +118,32 @@
         </div>
       </div>
     </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
     
     
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
@@ -230,15 +266,20 @@
     
     
     
+      
+        
+        
+      
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -1088,8 +1129,8 @@
 
 
 
-<h1 id="vector-c-stl">Vector (C++ STL)</h1>
-<h2 id="vector-nima">Vector nima?</h2>
+<h1 id="vector-c-stl">Vector (C++ STL)<a class="headerlink" href="#vector-c-stl" title="Permanent link">&para;</a></h1>
+<h2 id="vector-nima">Vector nima?<a class="headerlink" href="#vector-nima" title="Permanent link">&para;</a></h2>
 <p><strong>Vector</strong> — bu C++ tilidagi <strong>dinamik massiv</strong> (resizable array). U oddiy array (massiv) kabi bir xil turdagi bir nechta elementlarni saqlaydi, lekin asosiy ustunligi shundaki, vector o‘lchami dastur ishlashi davomida <strong>avtomatik ravishda o‘zgarishi</strong> mumkin.</p>
 <p>Ya’ni:</p>
 <ul>
@@ -1098,7 +1139,7 @@
 </ul>
 <p>Shu sababli, real loyihalarda ko‘pincha array o‘rniga <strong>vector</strong> ishlatiladi.</p>
 <hr />
-<h2 id="qachon-vector-ishlatiladi">Qachon vector ishlatiladi?</h2>
+<h2 id="qachon-vector-ishlatiladi">Qachon vector ishlatiladi?<a class="headerlink" href="#qachon-vector-ishlatiladi" title="Permanent link">&para;</a></h2>
 <p>Vector quyidagi holatlarda juda qulay:</p>
 <ul>
 <li>Elementlar soni oldindan aniq bo‘lmaganda</li>
@@ -1107,87 +1148,87 @@
 <li>Oxiridan tez qo‘shish/o‘chirish talab qilinsa</li>
 </ul>
 <hr />
-<h2 id="vectordan-foydalanish">Vector’dan foydalanish</h2>
+<h2 id="vectordan-foydalanish">Vector’dan foydalanish<a class="headerlink" href="#vectordan-foydalanish" title="Permanent link">&para;</a></h2>
 <p>Vector ishlatish uchun <code>&lt;vector&gt;</code> header faylini qo‘shish kerak:</p>
-<pre><code class="language-cpp">#include &lt;vector&gt;
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;vector&gt;</span>
+</code></pre></div>
 <p>Agar <code>cout</code> ishlatilsa:</p>
-<pre><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+</code></pre></div>
 <hr />
-<h2 id="vector-yaratish">Vector yaratish</h2>
-<h3 id="bosh-vector-yaratish">Bo‘sh vector yaratish</h3>
-<pre><code class="language-cpp">vector&lt;int&gt; numbers;
-</code></pre>
+<h2 id="vector-yaratish">Vector yaratish<a class="headerlink" href="#vector-yaratish" title="Permanent link">&para;</a></h2>
+<h3 id="bosh-vector-yaratish">Bo‘sh vector yaratish<a class="headerlink" href="#bosh-vector-yaratish" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">numbers</span><span class="p">;</span>
+</code></pre></div>
 <p>Bu yerda <code>numbers</code> — butun sonlardan iborat bo‘sh vector.</p>
-<h3 id="boshlangich-qiymatlar-bilan-yaratish">Boshlang‘ich qiymatlar bilan yaratish</h3>
-<pre><code class="language-cpp">vector&lt;string&gt; cars = {&quot;Volvo&quot;, &quot;BMW&quot;, &quot;Ford&quot;, &quot;Mazda&quot;};
-</code></pre>
+<h3 id="boshlangich-qiymatlar-bilan-yaratish">Boshlang‘ich qiymatlar bilan yaratish<a class="headerlink" href="#boshlangich-qiymatlar-bilan-yaratish" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="n">vector</span><span class="o">&lt;</span><span class="n">string</span><span class="o">&gt;</span><span class="w"> </span><span class="n">cars</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="s">&quot;Volvo&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;BMW&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Ford&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Mazda&quot;</span><span class="p">};</span>
+</code></pre></div>
 <blockquote>
 <p>⚠️ Eslatma: Vector e’lon qilingandan keyin uning ma’lumot turi (<code>int</code>, <code>string</code> va hokazo) <strong>o‘zgarmaydi</strong>.</p>
 </blockquote>
 <hr />
-<h2 id="vector-elementlariga-murojaat-qilish">Vector elementlariga murojaat qilish</h2>
+<h2 id="vector-elementlariga-murojaat-qilish">Vector elementlariga murojaat qilish<a class="headerlink" href="#vector-elementlariga-murojaat-qilish" title="Permanent link">&para;</a></h2>
 <p>Vector elementlari <strong>0-indexed</strong>, ya’ni birinchi element indexi <code>0</code> bo‘ladi.</p>
-<pre><code class="language-cpp">vector&lt;string&gt; cars = {&quot;Volvo&quot;, &quot;BMW&quot;, &quot;Ford&quot;, &quot;Mazda&quot;};
+<div class="highlight"><pre><span></span><code><span class="n">vector</span><span class="o">&lt;</span><span class="n">string</span><span class="o">&gt;</span><span class="w"> </span><span class="n">cars</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="s">&quot;Volvo&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;BMW&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Ford&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Mazda&quot;</span><span class="p">};</span>
 
-cout &lt;&lt; cars[0]; // Volvo
-cout &lt;&lt; cars[1]; // BMW
-</code></pre>
-<h3 id="at-funksiyasi">at() funksiyasi</h3>
+<span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">cars</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span><span class="w"> </span><span class="c1">// Volvo</span>
+<span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">cars</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span><span class="w"> </span><span class="c1">// BMW</span>
+</code></pre></div>
+<h3 id="at-funksiyasi">at() funksiyasi<a class="headerlink" href="#at-funksiyasi" title="Permanent link">&para;</a></h3>
 <p><code>.at()</code> funksiyasi elementga <strong>xavfsizroq</strong> murojaat qilish imkonini beradi:</p>
-<pre><code class="language-cpp">cout &lt;&lt; cars.at(2); // Ford
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">cars</span><span class="p">.</span><span class="n">at</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span><span class="w"> </span><span class="c1">// Ford</span>
+</code></pre></div>
 <p>Agar mavjud bo‘lmagan index ko‘rsatilsa, dastur xato (exception) chiqaradi:</p>
-<pre><code class="language-cpp">cout &lt;&lt; cars.at(6); // out_of_range xato
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">cars</span><span class="p">.</span><span class="n">at</span><span class="p">(</span><span class="mi">6</span><span class="p">);</span><span class="w"> </span><span class="c1">// out_of_range xato</span>
+</code></pre></div>
 <p>Shu sababli <code>.at()</code> funksiyasi <code>[]</code> ga nisbatan ishonchliroq hisoblanadi.</p>
 <hr />
-<h2 id="front-va-back">front() va back()</h2>
+<h2 id="front-va-back">front() va back()<a class="headerlink" href="#front-va-back" title="Permanent link">&para;</a></h2>
 <p>Vector’ning birinchi va oxirgi elementlarini olish uchun:</p>
-<pre><code class="language-cpp">cout &lt;&lt; cars.front(); // Birinchi element
-cout &lt;&lt; cars.back();  // Oxirgi element
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">cars</span><span class="p">.</span><span class="n">front</span><span class="p">();</span><span class="w"> </span><span class="c1">// Birinchi element</span>
+<span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">cars</span><span class="p">.</span><span class="n">back</span><span class="p">();</span><span class="w">  </span><span class="c1">// Oxirgi element</span>
+</code></pre></div>
 <hr />
-<h2 id="element-qoshish-va-ochirish">Element qo‘shish va o‘chirish</h2>
-<h3 id="push_back">push_back()</h3>
+<h2 id="element-qoshish-va-ochirish">Element qo‘shish va o‘chirish<a class="headerlink" href="#element-qoshish-va-ochirish" title="Permanent link">&para;</a></h2>
+<h3 id="push_back">push_back()<a class="headerlink" href="#push_back" title="Permanent link">&para;</a></h3>
 <p>Vector oxiriga element qo‘shadi:</p>
-<pre><code class="language-cpp">vector&lt;int&gt; nums;
-nums.push_back(10);
-nums.push_back(20);
-nums.push_back(30);
-</code></pre>
-<h3 id="pop_back">pop_back()</h3>
+<div class="highlight"><pre><span></span><code><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">nums</span><span class="p">;</span>
+<span class="n">nums</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+<span class="n">nums</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="mi">20</span><span class="p">);</span>
+<span class="n">nums</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="mi">30</span><span class="p">);</span>
+</code></pre></div>
+<h3 id="pop_back">pop_back()<a class="headerlink" href="#pop_back" title="Permanent link">&para;</a></h3>
 <p>Vector oxiridan elementni o‘chiradi:</p>
-<pre><code class="language-cpp">nums.pop_back(); // 30 o‘chiriladi
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="n">nums</span><span class="p">.</span><span class="n">pop_back</span><span class="p">();</span><span class="w"> </span><span class="c1">// 30 o‘chiriladi</span>
+</code></pre></div>
 <hr />
-<h2 id="vector-olchami">Vector o‘lchami</h2>
-<h3 id="size">size()</h3>
+<h2 id="vector-olchami">Vector o‘lchami<a class="headerlink" href="#vector-olchami" title="Permanent link">&para;</a></h2>
+<h3 id="size">size()<a class="headerlink" href="#size" title="Permanent link">&para;</a></h3>
 <p>Vector ichidagi elementlar sonini qaytaradi:</p>
-<pre><code class="language-cpp">cout &lt;&lt; nums.size();
-</code></pre>
-<h3 id="empty">empty()</h3>
+<div class="highlight"><pre><span></span><code><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">nums</span><span class="p">.</span><span class="n">size</span><span class="p">();</span>
+</code></pre></div>
+<h3 id="empty">empty()<a class="headerlink" href="#empty" title="Permanent link">&para;</a></h3>
 <p>Vector bo‘sh yoki yo‘qligini tekshiradi:</p>
-<pre><code class="language-cpp">if (nums.empty()) {
-    cout &lt;&lt; &quot;Vector bo‘sh&quot;;
-}
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">nums</span><span class="p">.</span><span class="n">empty</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Vector bo‘sh&quot;</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
 <hr />
-<h2 id="vector-boylab-yurish-iteration">Vector bo‘ylab yurish (iteration)</h2>
-<h3 id="range-based-for-loop">range-based for loop</h3>
-<pre><code class="language-cpp">for (int x : nums) {
-    cout &lt;&lt; x &lt;&lt; &quot; &quot;;
-}
-</code></pre>
-<h3 id="oddiy-for-loop">oddiy for loop</h3>
-<pre><code class="language-cpp">for (int i = 0; i &lt; nums.size(); i++) {
-    cout &lt;&lt; nums[i] &lt;&lt; &quot; &quot;;
-}
-</code></pre>
+<h2 id="vector-boylab-yurish-iteration">Vector bo‘ylab yurish (iteration)<a class="headerlink" href="#vector-boylab-yurish-iteration" title="Permanent link">&para;</a></h2>
+<h3 id="range-based-for-loop">range-based for loop<a class="headerlink" href="#range-based-for-loop" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">nums</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot; &quot;</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="oddiy-for-loop">oddiy for loop<a class="headerlink" href="#oddiy-for-loop" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">nums</span><span class="p">.</span><span class="n">size</span><span class="p">();</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot; &quot;</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
 <hr />
-<h2 id="time-complexity-vaqt-murakkabligi">Time Complexity (Vaqt murakkabligi)</h2>
+<h2 id="time-complexity-vaqt-murakkabligi">Time Complexity (Vaqt murakkabligi)<a class="headerlink" href="#time-complexity-vaqt-murakkabligi" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -1215,14 +1256,14 @@ nums.push_back(30);
 </tbody>
 </table>
 <hr />
-<h2 id="xulosa">Xulosa</h2>
+<h2 id="xulosa">Xulosa<a class="headerlink" href="#xulosa" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Vector — C++ dagi eng ko‘p ishlatiladigan data structure</li>
 <li>Dinamik o‘lchamga ega</li>
 <li>Index orqali tez ishlaydi</li>
 <li>Katta loyihalar uchun juda qulay</li>
 </ul>
-<p>Keyingi mavzu: <a href="/data_structures/lists.md"><strong>List (Linked List)</strong></a></p>
+<p>Keyingi mavzu: <a href="../lists/"><strong>List (Linked List)</strong></a></p>
 
 
 
@@ -1246,6 +1287,46 @@ nums.push_back(30);
       </main>
       
         <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../.." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Home
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../stacks/" class="md-footer__link md-footer__link--next" aria-label="Next: Stack">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Stack
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -1272,7 +1353,7 @@ nums.push_back(30);
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.footer", "navigation.tracking", "navigation.instant", "navigation.sections", "navigation.expand"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>

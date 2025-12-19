@@ -31,6 +31,9 @@
     
       <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
       
 
 
@@ -57,7 +60,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -108,6 +118,32 @@
         </div>
       </div>
     </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
     
     
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
@@ -230,15 +266,20 @@
     
     
     
+      
+        
+        
+      
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -976,8 +1017,8 @@
 
 
 
-<h1 id="stack-c-stl">Stack (C++ STL)</h1>
-<h2 id="stack-nima">Stack nima?</h2>
+<h1 id="stack-c-stl">Stack (C++ STL)<a class="headerlink" href="#stack-c-stl" title="Permanent link">&para;</a></h1>
+<h2 id="stack-nima">Stack nima?<a class="headerlink" href="#stack-nima" title="Permanent link">&para;</a></h2>
 <p><strong>Stack</strong> — bu C++ tilidagi ma’lumotlar tuzilmasi bo‘lib, elementlarni <strong>LIFO</strong> tamoyili asosida saqlaydi.</p>
 <p><strong>LIFO (Last In, First Out)</strong> — oxirgi qo‘shilgan element birinchi bo‘lib olinadi.</p>
 <p>Tasavvur qilish uchun: <strong>pankeyklar (blinchiklar) uyumi</strong>ni o‘ylab ko‘ring 🍽️</p>
@@ -988,7 +1029,7 @@
 </ul>
 <p>Dasturlashda aynan shu tamoyil <strong>Stack</strong> deb ataladi.</p>
 <hr />
-<h2 id="stack-xususiyatlari">Stack xususiyatlari</h2>
+<h2 id="stack-xususiyatlari">Stack xususiyatlari<a class="headerlink" href="#stack-xususiyatlari" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Elementlar <strong>faqat tepadan (top)</strong> qo‘shiladi</li>
 <li>Elementlar <strong>faqat tepadan (top)</strong> o‘chiriladi</li>
@@ -996,7 +1037,7 @@
 <li>Faqat eng yuqori (top) element bilan ishlash mumkin</li>
 </ul>
 <hr />
-<h2 id="qachon-stack-ishlatiladi">Qachon stack ishlatiladi?</h2>
+<h2 id="qachon-stack-ishlatiladi">Qachon stack ishlatiladi?<a class="headerlink" href="#qachon-stack-ishlatiladi" title="Permanent link">&para;</a></h2>
 <p>Stack quyidagi holatlarda juda foydali:</p>
 <ul>
 <li>Funksiya chaqiruvlari (call stack)</li>
@@ -1005,78 +1046,78 @@
 <li>Backtracking algoritmlari</li>
 </ul>
 <hr />
-<h2 id="stackdan-foydalanish">Stack’dan foydalanish</h2>
+<h2 id="stackdan-foydalanish">Stack’dan foydalanish<a class="headerlink" href="#stackdan-foydalanish" title="Permanent link">&para;</a></h2>
 <p>Stack ishlatish uchun <code>&lt;stack&gt;</code> header faylini qo‘shish kerak:</p>
-<pre><code class="language-cpp">#include &lt;stack&gt;
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stack&gt;</span>
+</code></pre></div>
 <p>Agar <code>cout</code> ishlatilsa:</p>
-<pre><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+</code></pre></div>
 <hr />
-<h2 id="stack-yaratish">Stack yaratish</h2>
-<pre><code class="language-cpp">stack&lt;string&gt; cars;
-</code></pre>
+<h2 id="stack-yaratish">Stack yaratish<a class="headerlink" href="#stack-yaratish" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="n">stack</span><span class="o">&lt;</span><span class="n">string</span><span class="o">&gt;</span><span class="w"> </span><span class="n">cars</span><span class="p">;</span>
+</code></pre></div>
 <blockquote>
 <p>⚠️ Eslatma: Stack e’lon qilingandan keyin uning ma’lumot turi (<code>int</code>, <code>string</code> va hokazo) <strong>o‘zgarmaydi</strong>.</p>
 <p>⚠️ Muhim: Stack’ni vector kabi <strong>boshlang‘ich qiymatlar bilan yaratib bo‘lmaydi</strong> ❌</p>
 </blockquote>
-<pre><code class="language-cpp">// XATO
-stack&lt;string&gt; cars = {&quot;Volvo&quot;, &quot;BMW&quot;};
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="c1">// XATO</span>
+<span class="n">stack</span><span class="o">&lt;</span><span class="n">string</span><span class="o">&gt;</span><span class="w"> </span><span class="n">cars</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="s">&quot;Volvo&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;BMW&quot;</span><span class="p">};</span>
+</code></pre></div>
 <hr />
-<h2 id="element-qoshish-push">Element qo‘shish — push()</h2>
+<h2 id="element-qoshish-push">Element qo‘shish — push()<a class="headerlink" href="#element-qoshish-push" title="Permanent link">&para;</a></h2>
 <p>Elementlar stack’ga <strong>faqat tepadan</strong> qo‘shiladi:</p>
-<pre><code class="language-cpp">stack&lt;string&gt; cars;
+<div class="highlight"><pre><span></span><code><span class="n">stack</span><span class="o">&lt;</span><span class="n">string</span><span class="o">&gt;</span><span class="w"> </span><span class="n">cars</span><span class="p">;</span>
 
-cars.push(&quot;Volvo&quot;);
-cars.push(&quot;BMW&quot;);
-cars.push(&quot;Ford&quot;);
-cars.push(&quot;Mazda&quot;);
-</code></pre>
+<span class="n">cars</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="s">&quot;Volvo&quot;</span><span class="p">);</span>
+<span class="n">cars</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="s">&quot;BMW&quot;</span><span class="p">);</span>
+<span class="n">cars</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="s">&quot;Ford&quot;</span><span class="p">);</span>
+<span class="n">cars</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="s">&quot;Mazda&quot;</span><span class="p">);</span>
+</code></pre></div>
 <p>Stack holati:</p>
-<pre><code>Mazda  ← top
+<div class="highlight"><pre><span></span><code>Mazda  ← top
 Ford
 BMW
 Volvo
-</code></pre>
+</code></pre></div>
 <hr />
-<h2 id="top-elementga-murojaat-qilish-top">Top elementga murojaat qilish — top()</h2>
+<h2 id="top-elementga-murojaat-qilish-top">Top elementga murojaat qilish — top()<a class="headerlink" href="#top-elementga-murojaat-qilish-top" title="Permanent link">&para;</a></h2>
 <p>Stack’da faqat <strong>eng yuqori element</strong> bilan ishlash mumkin:</p>
-<pre><code class="language-cpp">cout &lt;&lt; cars.top(); // Mazda
-</code></pre>
-<h3 id="top-elementni-ozgartirish">Top elementni o‘zgartirish</h3>
-<pre><code class="language-cpp">cars.top() = &quot;Tesla&quot;;
-cout &lt;&lt; cars.top(); // Tesla
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">cars</span><span class="p">.</span><span class="n">top</span><span class="p">();</span><span class="w"> </span><span class="c1">// Mazda</span>
+</code></pre></div>
+<h3 id="top-elementni-ozgartirish">Top elementni o‘zgartirish<a class="headerlink" href="#top-elementni-ozgartirish" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="n">cars</span><span class="p">.</span><span class="n">top</span><span class="p">()</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Tesla&quot;</span><span class="p">;</span>
+<span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">cars</span><span class="p">.</span><span class="n">top</span><span class="p">();</span><span class="w"> </span><span class="c1">// Tesla</span>
+</code></pre></div>
 <hr />
-<h2 id="element-ochirish-pop">Element o‘chirish — pop()</h2>
+<h2 id="element-ochirish-pop">Element o‘chirish — pop()<a class="headerlink" href="#element-ochirish-pop" title="Permanent link">&para;</a></h2>
 <p><code>pop()</code> oxirgi qo‘shilgan elementni olib tashlaydi:</p>
-<pre><code class="language-cpp">cars.pop(); // Tesla o‘chiriladi
+<div class="highlight"><pre><span></span><code><span class="n">cars</span><span class="p">.</span><span class="n">pop</span><span class="p">();</span><span class="w"> </span><span class="c1">// Tesla o‘chiriladi</span>
 
-cout &lt;&lt; cars.top(); // Ford
-</code></pre>
+<span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">cars</span><span class="p">.</span><span class="n">top</span><span class="p">();</span><span class="w"> </span><span class="c1">// Ford</span>
+</code></pre></div>
 <blockquote>
 <p>⚠️ Eslatma: <code>pop()</code> hech narsa qaytarmaydi, faqat elementni o‘chiradi.</p>
 </blockquote>
 <hr />
-<h2 id="stack-olchami">Stack o‘lchami</h2>
-<h3 id="size">size()</h3>
+<h2 id="stack-olchami">Stack o‘lchami<a class="headerlink" href="#stack-olchami" title="Permanent link">&para;</a></h2>
+<h3 id="size">size()<a class="headerlink" href="#size" title="Permanent link">&para;</a></h3>
 <p>Stack ichidagi elementlar sonini qaytaradi:</p>
-<pre><code class="language-cpp">cout &lt;&lt; cars.size();
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">cars</span><span class="p">.</span><span class="n">size</span><span class="p">();</span>
+</code></pre></div>
 <hr />
-<h2 id="stack-boshligini-tekshirish">Stack bo‘shligini tekshirish</h2>
-<h3 id="empty">empty()</h3>
+<h2 id="stack-boshligini-tekshirish">Stack bo‘shligini tekshirish<a class="headerlink" href="#stack-boshligini-tekshirish" title="Permanent link">&para;</a></h2>
+<h3 id="empty">empty()<a class="headerlink" href="#empty" title="Permanent link">&para;</a></h3>
 <p>Stack bo‘sh bo‘lsa <code>true (1)</code>, aks holda <code>false (0)</code> qaytaradi:</p>
-<pre><code class="language-cpp">stack&lt;string&gt; cars;
-cout &lt;&lt; cars.empty(); // true
-</code></pre>
-<pre><code class="language-cpp">cars.push(&quot;Volvo&quot;);
-cout &lt;&lt; cars.empty(); // false
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="n">stack</span><span class="o">&lt;</span><span class="n">string</span><span class="o">&gt;</span><span class="w"> </span><span class="n">cars</span><span class="p">;</span>
+<span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">cars</span><span class="p">.</span><span class="n">empty</span><span class="p">();</span><span class="w"> </span><span class="c1">// true</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="n">cars</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="s">&quot;Volvo&quot;</span><span class="p">);</span>
+<span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">cars</span><span class="p">.</span><span class="n">empty</span><span class="p">();</span><span class="w"> </span><span class="c1">// false</span>
+</code></pre></div>
 <hr />
-<h2 id="time-complexity-vaqt-murakkabligi">Time Complexity (Vaqt murakkabligi)</h2>
+<h2 id="time-complexity-vaqt-murakkabligi">Time Complexity (Vaqt murakkabligi)<a class="headerlink" href="#time-complexity-vaqt-murakkabligi" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -1104,21 +1145,21 @@ cout &lt;&lt; cars.empty(); // false
 </tbody>
 </table>
 <hr />
-<h2 id="stack-va-queue-farqi">Stack va Queue farqi</h2>
+<h2 id="stack-va-queue-farqi">Stack va Queue farqi<a class="headerlink" href="#stack-va-queue-farqi" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>Stack</strong> — LIFO (Last In, First Out)</li>
 <li><strong>Queue</strong> — FIFO (First In, First Out)</li>
 </ul>
 <p>Stack va Queue ko‘pincha birga o‘rganiladi.</p>
 <hr />
-<h2 id="xulosa">Xulosa</h2>
+<h2 id="xulosa">Xulosa<a class="headerlink" href="#xulosa" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Stack — LIFO asosida ishlaydi</li>
 <li>Faqat top element bilan ishlash mumkin</li>
 <li>Juda tez (O(1))</li>
 <li>Algoritmlar va real tizimlarda keng qo‘llaniladi</li>
 </ul>
-<p>Keyingi mavzu: <a href="/data_structures/queues.md"><strong>Queue (FIFO)</strong></a></p>
+<p>Keyingi mavzu: <a href="../queues/"><strong>Queue (FIFO)</strong></a></p>
 
 
 
@@ -1142,6 +1183,46 @@ cout &lt;&lt; cars.empty(); // false
       </main>
       
         <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../vectors/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Vectors">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Vectors
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../queues/" class="md-footer__link md-footer__link--next" aria-label="Next: Queue">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Queue
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -1168,7 +1249,7 @@ cout &lt;&lt; cars.empty(); // false
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.footer", "navigation.tracking", "navigation.instant", "navigation.sections", "navigation.expand"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
