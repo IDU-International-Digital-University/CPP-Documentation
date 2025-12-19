@@ -29,6 +29,9 @@
     
       <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
       
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
       
 
 
@@ -55,7 +58,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -106,6 +116,32 @@
         </div>
       </div>
     </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
     
     
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
@@ -325,6 +361,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="STL ning asosiy tushunchalari">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Menu:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -345,15 +398,22 @@
     
     
     
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -709,6 +769,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="STL ning asosiy tushunchalari">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Menu:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -728,12 +805,14 @@
 
 
 
-<h1 id="c-data-structures-and-stl">C++ Data Structures and STL</h1>
-<h2 id="kirish-introduction">Kirish (Introduction)</h2>
+<h1 id="c-data-structures-and-stl">C++ Data Structures and STL<a class="headerlink" href="#c-data-structures-and-stl" title="Permanent link">&para;</a></h1>
+<p><img alt="Build" src="https://img.shields.io/badge/MkDocs-Material-blue" />
+<img alt="Language" src="https://img.shields.io/badge/C++-17-green" /></p>
+<h2 id="kirish-introduction">Kirish (Introduction)<a class="headerlink" href="#kirish-introduction" title="Permanent link">&para;</a></h2>
 <p>Ushbu repository <strong>C++ dasturlash tilidagi Data Structures (Ma’lumotlar tuzilmalari)</strong> va <strong>STL (Standard Template Library)</strong> mavzularini tushunarli va amaliy tarzda o‘rganish uchun mo‘ljallangan.</p>
 <p>Ma’lumotlar tuzilmalari — bu ma’lumotlarni xotirada saqlash va tartibli holda boshqarish usullaridir. Masalan, <strong>array (massiv)</strong> bitta o‘zgaruvchi ichida bir nechta elementlarni saqlash imkonini beradigan eng oddiy data structure hisoblanadi.</p>
 <p>C++ tilida array’dan tashqari yana ko‘plab ma’lumotlar tuzilmalari mavjud bo‘lib, ularning aksariyati <strong>STL (Standard Template Library)</strong> tarkibiga kiradi. Har bir data structure ma’lumotlar bilan ishlashning turli holatlari uchun moslashtirilgan.</p>
-<h2 id="c-stl-nima">C++ STL nima?</h2>
+<h2 id="c-stl-nima">C++ STL nima?<a class="headerlink" href="#c-stl-nima" title="Permanent link">&para;</a></h2>
 <p><strong>STL (Standard Template Library)</strong> — bu C++ tilidagi tayyor <strong>data structures (containers)</strong> va <strong>algoritmlar</strong> to‘plamidir. STL yordamida ma’lumotlarni samarali saqlash, qidirish, saralash va qayta ishlash mumkin.</p>
 <p>Agar data structures ma’lumotlarni saqlash uchun xizmat qilsa, <strong>algoritmlar</strong> ushbu ma’lumotlar ustida turli amallarni bajarish uchun ishlatiladi (masalan: qidirish, saralash, o‘chirish).</p>
 <p>To‘g‘ri tanlangan data structure va algoritm:</p>
@@ -742,7 +821,7 @@
 <li>Katta hajmdagi ma’lumotlar bilan samarali ishlashga yordam beradi</li>
 <li>Kodni soddaroq va tushunarliroq qiladi</li>
 </ul>
-<h2 id="eng-kop-ishlatiladigan-stl-data-structures">Eng ko‘p ishlatiladigan STL Data Structures</h2>
+<h2 id="eng-kop-ishlatiladigan-stl-data-structures">Eng ko‘p ishlatiladigan STL Data Structures<a class="headerlink" href="#eng-kop-ishlatiladigan-stl-data-structures" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -782,30 +861,30 @@
 </tbody>
 </table>
 <p>Qaysi data structure’ni tanlash — sizning vazifangizga bog‘liq.</p>
-<h2 id="stl-dan-foydalanish">STL dan foydalanish</h2>
+<h2 id="stl-dan-foydalanish">STL dan foydalanish<a class="headerlink" href="#stl-dan-foydalanish" title="Permanent link">&para;</a></h2>
 <p>Har bir data structure’dan foydalanish uchun mos <strong>header file</strong> ni qo‘shish kerak:</p>
-<pre><code class="language-cpp">#include &lt;vector&gt;
-#include &lt;list&gt;
-#include &lt;set&gt;
-#include &lt;map&gt;
-#include &lt;stack&gt;
-#include &lt;queue&gt;
-</code></pre>
-<h3 id="vector-misoli">Vector misoli</h3>
-<pre><code class="language-cpp">#include &lt;iostream&gt;
-#include &lt;vector&gt;
-using namespace std;
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;vector&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;list&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;set&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;map&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stack&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;queue&gt;</span>
+</code></pre></div>
+<h3 id="vector-misoli">Vector misoli<a class="headerlink" href="#vector-misoli" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;vector&gt;</span>
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
 
-int main() {
-    vector&lt;string&gt; cars = {&quot;Volvo&quot;, &quot;BMW&quot;, &quot;Ford&quot;, &quot;Mazda&quot;};
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">vector</span><span class="o">&lt;</span><span class="n">string</span><span class="o">&gt;</span><span class="w"> </span><span class="n">cars</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="s">&quot;Volvo&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;BMW&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Ford&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Mazda&quot;</span><span class="p">};</span>
 
-    for (string car : cars) {
-        cout &lt;&lt; car &lt;&lt; &quot;\n&quot;;
-    }
-    return 0;
-}
-</code></pre>
-<h2 id="stl-ning-asosiy-tushunchalari">STL ning asosiy tushunchalari</h2>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">car</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">cars</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">car</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="stl-ning-asosiy-tushunchalari">STL ning asosiy tushunchalari<a class="headerlink" href="#stl-ning-asosiy-tushunchalari" title="Permanent link">&para;</a></h2>
 <p>STL uchta asosiy komponentdan iborat:</p>
 <ul>
 <li><strong>Containers</strong> — ma’lumotlarni saqlash uchun (vector, list, map, va hokazo)</li>
@@ -814,6 +893,17 @@ int main() {
 </ul>
 <p>Kompyuter fanida <strong>Data Structures va Algorithms</strong> doimo birga ishlaydi. Data structure algoritmlarsiz foydasiz, algoritmlar esa data structure’siz ishlay olmaydi.</p>
 <p>Keyingi bo‘limlarda har bir data structure alohida ko‘rib chiqilib, amaliy misollar bilan tushuntiriladi.</p>
+<h4 id="menu">Menu:<a class="headerlink" href="#menu" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="data_structures/vectors/"><strong>C++ Vectors</strong></a></li>
+<li><a href="data_structures/stacks/"><strong>C++ Stack</strong></a></li>
+<li><a href="data_structures/queues/"><strong>C++ Queue</strong></a></li>
+<li><a href="data_structures/deques/"><strong>C++ Deque</strong></a></li>
+<li><a href="data_structures/sets/"><strong>C++ Set</strong></a></li>
+<li><a href="/docs/data_structures/maps.md"><strong>C++ Map</strong></a></li>
+<li><a href="data_structures/iterators/"><strong>C++ Iterators</strong></a></li>
+<li><a href="data_structures/algorithms/"><strong>C++ Algorithms</strong></a></li>
+</ul>
 
 
 
@@ -837,6 +927,30 @@ int main() {
       </main>
       
         <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+        
+          
+          <a href="data_structures/vectors/" class="md-footer__link md-footer__link--next" aria-label="Next: Vectors">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Vectors
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -863,7 +977,7 @@ int main() {
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": [], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.footer", "navigation.tracking", "navigation.instant", "navigation.sections", "navigation.expand"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
