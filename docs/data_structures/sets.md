@@ -141,4 +141,4 @@ for (string car : cars) {
 * Index yo‘q, lekin elementlarni qo‘shish va o‘chirish tez
 * Algoritmlar va matematik hisob-kitoblar uchun qulay
 
-Keyingi mavzu: [**Map (STL)**](/data_structures/maps.md)
+Keyingi mavzu: [**Map (STL)**](./maps.md)

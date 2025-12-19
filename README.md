@@ -1,4 +1,6 @@
 # C++ Data Structures and STL
+![Build](https://img.shields.io/badge/MkDocs-Material-blue)
+![Language](https://img.shields.io/badge/C++-17-green)
 
 ## Kirish (Introduction)
 

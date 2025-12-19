@@ -216,4 +216,4 @@ for (string car : cars) {
 * Index orqali murojaat qilish mumkin
 * Murakkab algoritmlar uchun juda qulay
 
-Keyingi mavzu: [**Set (Unique elements)**](/data_structures/sets.md)
+Keyingi mavzu: [**Set (Unique elements)**](./sets.md)

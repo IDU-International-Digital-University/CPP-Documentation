@@ -123,4 +123,4 @@ map<string, int, greater<string>> people;
 * `.insert()`, `[]`, `.erase()`, `.clear()`, `.size()`, `.empty()`, `.count()` funksiyalari mavjud
 * Algoritmik masalalar va look-uplar uchun qulay
 
-Keyingi mavzu: [**Iterators**](/data_structures/iterators.md)
+Keyingi mavzu: [**Iterators**](./iterators.md)

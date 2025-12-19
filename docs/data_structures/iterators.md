@@ -74,4 +74,4 @@ sort(numbers.rbegin(), numbers.rend()); // teskari tartiblash
 
 Iteratorlar STL ma'lumotlar tuzilmalarini qulay va samarali boshqarish imkonini beradi.
 
-Keyingi mavzu: [**Algorithms**](/data_structures/algorithms.md)
+Keyingi mavzu: [**Algorithms**](./algorithms.md)

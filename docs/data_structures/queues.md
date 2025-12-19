@@ -183,4 +183,4 @@ Ikkalasi ham real tizimlarda juda keng qo‘llaniladi.
 * Juda tez (O(1)) amallar
 * Rejalashtirish va navbat tizimlari uchun ideal
 
-Keyingi mavzu: [**Deque (Double-ended Queue)**](/data_structures/deques.md)
+Keyingi mavzu: [**Deque (Double-ended Queue)**](./deques.md)

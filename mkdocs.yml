@@ -15,3 +15,43 @@ nav:
 
 theme:
   name: material
+  features:
+    # 1.1 Previous / Next tugmalari
+    # Material theme avtomatik qo‘llab-quvvatlaydi.
+    - navigation.footer
+    - navigation.tracking
+    - navigation.instant
+    # Sticky Sidebar + Scroll highlight
+    # Foydalanuvchi qayerda ekanini ko‘rib turadi.
+    - navigation.sections
+    - navigation.expand
+
+  # Light / Dark rejim
+  # Material’da juda chiroyli ishlaydi.
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+# Sahifa ichida TOC (mundarija)
+# Uzun sahifalar uchun 🔥
+markdown_extensions:
+  - toc:
+      permalink: true
+  # Code block’larni professional qilish
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+
+# Material’da instant search bor
+plugins:
+  - search

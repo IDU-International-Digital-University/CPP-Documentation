@@ -184,4 +184,4 @@ for (int i = 0; i < nums.size(); i++) {
 * Index orqali tez ishlaydi
 * Katta loyihalar uchun juda qulay
 
-Keyingi mavzu: [**List (Linked List)**](/data_structures/lists.md)
+Keyingi mavzu: [**List (Linked List)**](./lists.md)

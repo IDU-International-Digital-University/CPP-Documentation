@@ -1,4 +1,6 @@
 # C++ Data Structures and STL
+![Build](https://img.shields.io/badge/MkDocs-Material-blue)
+![Language](https://img.shields.io/badge/C++-17-green)
 
 ## Kirish (Introduction)
 
@@ -75,3 +77,13 @@ STL uchta asosiy komponentdan iborat:
 Kompyuter fanida **Data Structures va Algorithms** doimo birga ishlaydi. Data structure algoritmlarsiz foydasiz, algoritmlar esa data structure’siz ishlay olmaydi.
 
 Keyingi bo‘limlarda har bir data structure alohida ko‘rib chiqilib, amaliy misollar bilan tushuntiriladi.
+
+#### Menu:
+- [**C++ Vectors**](./data_structures/vectors.md)
+- [**C++ Stack**](./data_structures/stacks.md)
+- [**C++ Queue**](./data_structures/queues.md)
+- [**C++ Deque**](./data_structures/deques.md)
+- [**C++ Set**](./data_structures/sets.md)
+- [**C++ Map**](/docs/data_structures/maps.md)
+- [**C++ Iterators**](./data_structures/iterators.md)
+- [**C++ Algorithms**](./data_structures/algorithms.md)
