@@ -11,8 +11,10 @@
       
       
       
-        <link rel="canonical" href="https://idu-international-digital-university.github.io/CPP-Documentation/data_structures/lists/">
+        <link rel="canonical" href="https://idu-international-digital-university.github.io/CPP-Documentation/algorithms/binary_search/">
       
+      
+        <link rel="prev" href="../linear_search/">
       
       
       
@@ -24,7 +26,7 @@
     
     
       
-        <title>List (C++ STL) - C++ Data Structures & Algorithms</title>
+        <title>Binary Search - C++ Data Structures & Algorithms</title>
       
     
     
@@ -77,7 +79,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#list-c-stl" class="md-skip">
+        <a href="#binary-search-algorithm" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              List (C++ STL)
+              Binary Search
             
           </span>
         </div>
@@ -245,7 +247,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../vectors/" class="md-tabs__link">
+        <a href="../../data_structures/vectors/" class="md-tabs__link">
           
   
   
@@ -261,11 +263,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../algorithms/linear_search/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../linear_search/" class="md-tabs__link">
           
   
   
@@ -410,7 +414,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vectors/" class="md-nav__link">
+      <a href="../../data_structures/vectors/" class="md-nav__link">
         
   
   
@@ -438,7 +442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stacks/" class="md-nav__link">
+      <a href="../../data_structures/stacks/" class="md-nav__link">
         
   
   
@@ -466,7 +470,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../queues/" class="md-nav__link">
+      <a href="../../data_structures/queues/" class="md-nav__link">
         
   
   
@@ -494,7 +498,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../deques/" class="md-nav__link">
+      <a href="../../data_structures/deques/" class="md-nav__link">
         
   
   
@@ -522,7 +526,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../sets/" class="md-nav__link">
+      <a href="../../data_structures/sets/" class="md-nav__link">
         
   
   
@@ -550,7 +554,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../maps/" class="md-nav__link">
+      <a href="../../data_structures/maps/" class="md-nav__link">
         
   
   
@@ -578,7 +582,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../iterators/" class="md-nav__link">
+      <a href="../../data_structures/iterators/" class="md-nav__link">
         
   
   
@@ -606,7 +610,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../algorithms/" class="md-nav__link">
+      <a href="../../data_structures/algorithms/" class="md-nav__link">
         
   
   
@@ -638,28 +642,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   
@@ -677,7 +684,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -695,7 +702,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../algorithms/linear_search/" class="md-nav__link">
+      <a href="../linear_search/" class="md-nav__link">
         
   
   
@@ -720,10 +727,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../algorithms/binary_search/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Binary Search
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -739,6 +773,199 @@
   
 
       </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#binary-search-nima" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Binary Search nima?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#muhim-shart" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Muhim shart ❗
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qanday-ishlaydi-oddiy-tushuntirish" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qanday ishlaydi? (Oddiy tushuntirish)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vizual-misol" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vizual misol 👀
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oddiy-c-misol-while-loop-bilan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oddiy C++ misol (while loop bilan)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binary-search-qanday-ishlaydi-real-hayot-misoli" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Binary Search qanday ishlaydi (real hayot misoli)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stl-bilan-binary-search-c-da" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        STL bilan Binary Search (C++ da)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="STL bilan Binary Search (C++ da)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-binary_search" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1️⃣ binary_search()
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-lower_bound-juda-muhim" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2️⃣ lower_bound() (juda muhim 🔥)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#afzalliklari" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Afzalliklari ✅
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kamchiliklari" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kamchiliklari ❌
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#time-complexity-vaqt-murakkabligi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Time Complexity (Vaqt murakkabligi)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linear-search-vs-binary-search" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linear Search vs Binary Search
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qachon-binary-search-ishlatish-kerak" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qachon Binary Search ishlatish kerak?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#xulosa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Xulosa 🧠
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -780,10 +1007,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#list-nima" class="md-nav__link">
+  <a href="#binary-search-nima" class="md-nav__link">
     <span class="md-ellipsis">
       
-        List nima?
+        Binary Search nima?
       
     </span>
   </a>
@@ -791,10 +1018,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#qachon-list-ishlatiladi" class="md-nav__link">
+  <a href="#muhim-shart" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Qachon list ishlatiladi?
+        Muhim shart ❗
       
     </span>
   </a>
@@ -802,10 +1029,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#listdan-foydalanish" class="md-nav__link">
+  <a href="#qanday-ishlaydi-oddiy-tushuntirish" class="md-nav__link">
     <span class="md-ellipsis">
       
-        List’dan foydalanish
+        Qanday ishlaydi? (Oddiy tushuntirish)
       
     </span>
   </a>
@@ -813,22 +1040,55 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#list-yaratish" class="md-nav__link">
+  <a href="#vizual-misol" class="md-nav__link">
     <span class="md-ellipsis">
       
-        List yaratish
+        Vizual misol 👀
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="List yaratish">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oddiy-c-misol-while-loop-bilan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oddiy C++ misol (while loop bilan)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binary-search-qanday-ishlaydi-real-hayot-misoli" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Binary Search qanday ishlaydi (real hayot misoli)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stl-bilan-binary-search-c-da" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        STL bilan Binary Search (C++ da)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="STL bilan Binary Search (C++ da)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#bosh-list-yaratish" class="md-nav__link">
+  <a href="#1-binary_search" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Bo‘sh list yaratish
+        1️⃣ binary_search()
       
     </span>
   </a>
@@ -836,10 +1096,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#boshlangich-qiymatlar-bilan-yaratish" class="md-nav__link">
+  <a href="#2-lower_bound-juda-muhim" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Boshlang‘ich qiymatlar bilan yaratish
+        2️⃣ lower_bound() (juda muhim 🔥)
       
     </span>
   </a>
@@ -852,10 +1112,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#list-elementlariga-murojaat-qilish" class="md-nav__link">
+  <a href="#afzalliklari" class="md-nav__link">
     <span class="md-ellipsis">
       
-        List elementlariga murojaat qilish
+        Afzalliklari ✅
       
     </span>
   </a>
@@ -863,186 +1123,13 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#list-elementlarini-ozgartirish" class="md-nav__link">
+  <a href="#kamchiliklari" class="md-nav__link">
     <span class="md-ellipsis">
       
-        List elementlarini o‘zgartirish
+        Kamchiliklari ❌
       
     </span>
   </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#element-qoshish" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Element qo‘shish
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Element qo‘shish">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#push_front" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        push_front()
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#push_back" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        push_back()
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#element-ochirish" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Element o‘chirish
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Element o‘chirish">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pop_front" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        pop_front()
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pop_back" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        pop_back()
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#list-olchami" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        List o‘lchami
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="List o‘lchami">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#size" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        size()
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#list-boshligini-tekshirish" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        List bo‘shligini tekshirish
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="List bo‘shligini tekshirish">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#empty" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        empty()
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#list-boylab-yurish-iteration" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        List bo‘ylab yurish (iteration)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="List bo‘ylab yurish (iteration)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#notogri-usul-ishlamaydi" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Noto‘g‘ri usul (ishlamaydi)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#togri-usul-range-based-for-loop" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        To‘g‘ri usul — range-based for loop
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1058,10 +1145,32 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#linear-search-vs-binary-search" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linear Search vs Binary Search
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qachon-binary-search-ishlatish-kerak" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qachon Binary Search ishlatish kerak?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#xulosa" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Xulosa
+        Xulosa 🧠
       
     </span>
   </a>
@@ -1088,163 +1197,249 @@
   
 
 
-<h1 id="list-c-stl">List (C++ STL)<a class="headerlink" href="#list-c-stl" title="Permanent link">&para;</a></h1>
-<h2 id="list-nima">List nima?<a class="headerlink" href="#list-nima" title="Permanent link">&para;</a></h2>
-<p><strong>List</strong> — bu C++ tilidagi <strong>bog‘langan ro‘yxat (linked list)</strong> bo‘lib, bir xil turdagi bir nechta elementlarni saqlaydi va <strong>dinamik o‘lchamga ega</strong>.</p>
-<p>List vector’ga o‘xshash, lekin ular orasida <strong>ikki muhim farq</strong> mavjud:</p>
+<h1 id="binary-search-algorithm">Binary Search Algorithm<a class="headerlink" href="#binary-search-algorithm" title="Permanent link">&para;</a></h1>
+<h2 id="binary-search-nima">Binary Search nima?<a class="headerlink" href="#binary-search-nima" title="Permanent link">&para;</a></h2>
+<p><strong>Binary Search (Ikkilik qidiruv)</strong> — bu <strong>faqat tartiblangan (sorted)</strong> ma’lumotlarda ishlaydigan <strong>tez va samarali</strong> qidiruv algoritmidir.</p>
+<p>Agar ma’lumotlar tartiblangan bo‘lsa, Binary Search:
+- elementni juda tez topadi
+- Linear Search’dan ancha tez ishlaydi</p>
+<hr />
+<h2 id="muhim-shart">Muhim shart ❗<a class="headerlink" href="#muhim-shart" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p><strong>Binary Search faqat SORTED (tartiblangan) massivda ishlaydi</strong></p>
+</blockquote>
+<p>Masalan:
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a>✅ To‘g‘ri:   [1, 3, 5, 7, 9, 11]
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a>❌ Noto‘g‘ri: [7, 1, 9, 3, 5]
+</code></pre></div></td></tr></table></div></p>
+<p>Agar data tartiblanmagan bo‘lsa — <strong>oldin sort qilish kerak</strong>.</p>
+<hr />
+<h2 id="qanday-ishlaydi-oddiy-tushuntirish">Qanday ishlaydi? (Oddiy tushuntirish)<a class="headerlink" href="#qanday-ishlaydi-oddiy-tushuntirish" title="Permanent link">&para;</a></h2>
 <ol>
-<li>List’da elementlarni <strong>boshidan ham, oxiridan ham</strong> tez qo‘shish va o‘chirish mumkin.</li>
-<li>List <strong>index orqali murojaatni qo‘llab-quvvatlamaydi</strong>, ya’ni <code>cars[0]</code> kabi murojaat qilib bo‘lmaydi.</li>
+<li>Massivning <strong>o‘rtasidagi element</strong> olinadi</li>
+<li>Qidirilayotgan qiymat bilan solishtiriladi</li>
+<li>
+<p>Agar:</p>
+</li>
+<li>
+<p>teng bo‘lsa → topildi</p>
+</li>
+<li>kichik bo‘lsa → chap tomondan qidiriladi</li>
+<li>katta bo‘lsa → o‘ng tomondan qidiriladi</li>
+<li>Shu jarayon element topilguncha yoki qidiruv oralig‘i tugaguncha davom etadi</li>
 </ol>
-<p>Shu sababli list ko‘proq elementlar tez-tez qo‘shilib/o‘chiriladigan holatlarda ishlatiladi.</p>
 <hr />
-<h2 id="qachon-list-ishlatiladi">Qachon list ishlatiladi?<a class="headerlink" href="#qachon-list-ishlatiladi" title="Permanent link">&para;</a></h2>
-<p>List quyidagi vaziyatlarda qulay:</p>
-<ul>
-<li>Elementlarni boshidan va oxiridan tez o‘zgartirish kerak bo‘lsa</li>
-<li>Ma’lumotlar tez-tez qo‘shilib/o‘chirilsa</li>
-<li>Index orqali murojaat qilish muhim bo‘lmasa</li>
-</ul>
-<p>Agar tez index access kerak bo‘lsa — <strong>vector</strong>, agar tez qo‘shish/o‘chirish kerak bo‘lsa — <strong>list</strong> tanlanadi.</p>
-<hr />
-<h2 id="listdan-foydalanish">List’dan foydalanish<a class="headerlink" href="#listdan-foydalanish" title="Permanent link">&para;</a></h2>
-<p>List ishlatish uchun <code>&lt;list&gt;</code> header faylini qo‘shish kerak:</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;list&gt;</span>
-</code></pre></div></td></tr></table></div>
-<p>Agar <code>cout</code> ishlatilsa:</p>
+<h2 id="vizual-misol">Vizual misol 👀<a class="headerlink" href="#vizual-misol" title="Permanent link">&para;</a></h2>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
-<span class="normal"><a href="#__codelineno-1-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+<span class="normal"><a href="#__codelineno-1-2">2</a></span>
+<span class="normal"><a href="#__codelineno-1-3">3</a></span>
+<span class="normal"><a href="#__codelineno-1-4">4</a></span>
+<span class="normal"><a href="#__codelineno-1-5">5</a></span>
+<span class="normal"><a href="#__codelineno-1-6">6</a></span>
+<span class="normal"><a href="#__codelineno-1-7">7</a></span>
+<span class="normal"><a href="#__codelineno-1-8">8</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a>Massiv: [1, 3, 5, 7, 9, 11]
+<a id="__codelineno-1-2" name="__codelineno-1-2"></a>Target: 7
+<a id="__codelineno-1-3" name="__codelineno-1-3"></a>
+<a id="__codelineno-1-4" name="__codelineno-1-4"></a>1-qadam: middle = 5
+<a id="__codelineno-1-5" name="__codelineno-1-5"></a>5 &lt; 7 → o‘ng tomonga o‘tamiz
+<a id="__codelineno-1-6" name="__codelineno-1-6"></a>
+<a id="__codelineno-1-7" name="__codelineno-1-7"></a>2-qadam: middle = 7
+<a id="__codelineno-1-8" name="__codelineno-1-8"></a>Topildi ✅
 </code></pre></div></td></tr></table></div>
 <hr />
-<h2 id="list-yaratish">List yaratish<a class="headerlink" href="#list-yaratish" title="Permanent link">&para;</a></h2>
-<h3 id="bosh-list-yaratish">Bo‘sh list yaratish<a class="headerlink" href="#bosh-list-yaratish" title="Permanent link">&para;</a></h3>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="n">list</span><span class="o">&lt;</span><span class="n">string</span><span class="o">&gt;</span><span class="w"> </span><span class="n">cars</span><span class="p">;</span>
+<h2 id="oddiy-c-misol-while-loop-bilan">Oddiy C++ misol (while loop bilan)<a class="headerlink" href="#oddiy-c-misol-while-loop-bilan" title="Permanent link">&para;</a></h2>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-2-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-2-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-2-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-2-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-2-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-2-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-2-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-2-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-2-10">10</a></span>
+<span class="normal"><a href="#__codelineno-2-11">11</a></span>
+<span class="normal"><a href="#__codelineno-2-12">12</a></span>
+<span class="normal"><a href="#__codelineno-2-13">13</a></span>
+<span class="normal"><a href="#__codelineno-2-14">14</a></span>
+<span class="normal"><a href="#__codelineno-2-15">15</a></span>
+<span class="normal"><a href="#__codelineno-2-16">16</a></span>
+<span class="normal"><a href="#__codelineno-2-17">17</a></span>
+<span class="normal"><a href="#__codelineno-2-18">18</a></span>
+<span class="normal"><a href="#__codelineno-2-19">19</a></span>
+<span class="normal"><a href="#__codelineno-2-20">20</a></span>
+<span class="normal"><a href="#__codelineno-2-21">21</a></span>
+<span class="normal"><a href="#__codelineno-2-22">22</a></span>
+<span class="normal"><a href="#__codelineno-2-23">23</a></span>
+<span class="normal"><a href="#__codelineno-2-24">24</a></span>
+<span class="normal"><a href="#__codelineno-2-25">25</a></span>
+<span class="normal"><a href="#__codelineno-2-26">26</a></span>
+<span class="normal"><a href="#__codelineno-2-27">27</a></span>
+<span class="normal"><a href="#__codelineno-2-28">28</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3"></a>
+<a id="__codelineno-2-4" name="__codelineno-2-4"></a><span class="kt">int</span><span class="w"> </span><span class="nf">binarySearch</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">arr</span><span class="p">[],</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">size</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">target</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">left</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">right</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">size</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7"></a>
+<a id="__codelineno-2-8" name="__codelineno-2-8"></a><span class="w">    </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">left</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">right</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9"></a><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">left</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="p">(</span><span class="n">right</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">left</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10"></a>
+<a id="__codelineno-2-11" name="__codelineno-2-11"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">arr</span><span class="p">[</span><span class="n">mid</span><span class="p">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">target</span><span class="p">)</span>
+<a id="__codelineno-2-12" name="__codelineno-2-12"></a><span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="n">mid</span><span class="p">;</span>
+<a id="__codelineno-2-13" name="__codelineno-2-13"></a>
+<a id="__codelineno-2-14" name="__codelineno-2-14"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">arr</span><span class="p">[</span><span class="n">mid</span><span class="p">]</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">target</span><span class="p">)</span>
+<a id="__codelineno-2-15" name="__codelineno-2-15"></a><span class="w">            </span><span class="n">left</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<a id="__codelineno-2-16" name="__codelineno-2-16"></a><span class="w">        </span><span class="k">else</span>
+<a id="__codelineno-2-17" name="__codelineno-2-17"></a><span class="w">            </span><span class="n">right</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<a id="__codelineno-2-18" name="__codelineno-2-18"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-2-19" name="__codelineno-2-19"></a>
+<a id="__codelineno-2-20" name="__codelineno-2-20"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">-1</span><span class="p">;</span><span class="w"> </span><span class="c1">// topilmasa</span>
+<a id="__codelineno-2-21" name="__codelineno-2-21"></a><span class="p">}</span>
+<a id="__codelineno-2-22" name="__codelineno-2-22"></a>
+<a id="__codelineno-2-23" name="__codelineno-2-23"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-24" name="__codelineno-2-24"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">arr</span><span class="p">[]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w"> </span><span class="mi">11</span><span class="p">};</span>
+<a id="__codelineno-2-25" name="__codelineno-2-25"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">index</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">binarySearch</span><span class="p">(</span><span class="n">arr</span><span class="p">,</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">);</span>
+<a id="__codelineno-2-26" name="__codelineno-2-26"></a>
+<a id="__codelineno-2-27" name="__codelineno-2-27"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">index</span><span class="p">;</span><span class="w"> </span><span class="c1">// 3</span>
+<a id="__codelineno-2-28" name="__codelineno-2-28"></a><span class="p">}</span>
 </code></pre></div></td></tr></table></div>
-<h3 id="boshlangich-qiymatlar-bilan-yaratish">Boshlang‘ich qiymatlar bilan yaratish<a class="headerlink" href="#boshlangich-qiymatlar-bilan-yaratish" title="Permanent link">&para;</a></h3>
+<hr />
+<h2 id="binary-search-qanday-ishlaydi-real-hayot-misoli">Binary Search qanday ishlaydi (real hayot misoli)<a class="headerlink" href="#binary-search-qanday-ishlaydi-real-hayot-misoli" title="Permanent link">&para;</a></h2>
+<p>📖 <strong>Lug‘at (dictionary)</strong> misoli:</p>
+<ul>
+<li>
+<p>Agar “apple” so‘zini qidirsang:</p>
+</li>
+<li>
+<p>boshidan o‘qimaysan</p>
+</li>
+<li>o‘rtasidan ochasan</li>
+<li>keyin chap yoki o‘ng tomonga o‘tasan</li>
+</ul>
+<p>Bu aynan <strong>Binary Search</strong> printsipi.</p>
+<hr />
+<h2 id="stl-bilan-binary-search-c-da">STL bilan Binary Search (C++ da)<a class="headerlink" href="#stl-bilan-binary-search-c-da" title="Permanent link">&para;</a></h2>
+<p>C++ da tayyor funksiyalar bor:</p>
+<h3 id="1-binary_search">1️⃣ <code>binary_search()</code><a class="headerlink" href="#1-binary_search" title="Permanent link">&para;</a></h3>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
 <span class="normal"><a href="#__codelineno-3-2">2</a></span>
 <span class="normal"><a href="#__codelineno-3-3">3</a></span>
 <span class="normal"><a href="#__codelineno-3-4">4</a></span>
-<span class="normal"><a href="#__codelineno-3-5">5</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="n">list</span><span class="o">&lt;</span><span class="n">string</span><span class="o">&gt;</span><span class="w"> </span><span class="n">cars</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="s">&quot;Volvo&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;BMW&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Ford&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Mazda&quot;</span><span class="p">};</span>
-<a id="__codelineno-3-2" name="__codelineno-3-2"></a>
-<a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">car</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">cars</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-3-4" name="__codelineno-3-4"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">car</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">;</span>
-<a id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="p">}</span>
+<span class="normal"><a href="#__codelineno-3-5">5</a></span>
+<span class="normal"><a href="#__codelineno-3-6">6</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;algorithm&gt;</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;vector&gt;</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3"></a>
+<a id="__codelineno-3-4" name="__codelineno-3-4"></a><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">numbers</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">};</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5"></a>
+<a id="__codelineno-3-6" name="__codelineno-3-6"></a><span class="kt">bool</span><span class="w"> </span><span class="n">found</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">binary_search</span><span class="p">(</span><span class="n">numbers</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span><span class="w"> </span><span class="n">numbers</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span><span class="w"> </span><span class="mi">7</span><span class="p">);</span>
 </code></pre></div></td></tr></table></div>
-<blockquote>
-<p>⚠️ Eslatma: List e’lon qilingandan keyin uning ma’lumot turi (<code>int</code>, <code>string</code> va hokazo) <strong>o‘zgarmaydi</strong>.</p>
-</blockquote>
+<p>📌 <strong>true / false</strong> qaytaradi</p>
 <hr />
-<h2 id="list-elementlariga-murojaat-qilish">List elementlariga murojaat qilish<a class="headerlink" href="#list-elementlariga-murojaat-qilish" title="Permanent link">&para;</a></h2>
-<p>List’da <strong>index mavjud emas</strong>, shuning uchun elementlarga <code>[]</code> orqali murojaat qilib bo‘lmaydi.</p>
-<p>Ammo birinchi va oxirgi elementlarni olish mumkin:</p>
+<h3 id="2-lower_bound-juda-muhim">2️⃣ <code>lower_bound()</code> (juda muhim 🔥)<a class="headerlink" href="#2-lower_bound-juda-muhim" title="Permanent link">&para;</a></h3>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-4-1">1</a></span>
-<span class="normal"><a href="#__codelineno-4-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">cars</span><span class="p">.</span><span class="n">front</span><span class="p">();</span><span class="w"> </span><span class="c1">// Birinchi element</span>
-<a id="__codelineno-4-2" name="__codelineno-4-2"></a><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">cars</span><span class="p">.</span><span class="n">back</span><span class="p">();</span><span class="w">  </span><span class="c1">// Oxirgi element</span>
+<span class="normal"><a href="#__codelineno-4-2">2</a></span>
+<span class="normal"><a href="#__codelineno-4-3">3</a></span>
+<span class="normal"><a href="#__codelineno-4-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="k">auto</span><span class="w"> </span><span class="n">it</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lower_bound</span><span class="p">(</span><span class="n">numbers</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span><span class="w"> </span><span class="n">numbers</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span><span class="w"> </span><span class="mi">7</span><span class="p">);</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2"></a>
+<a id="__codelineno-4-3" name="__codelineno-4-3"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">it</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">numbers</span><span class="p">.</span><span class="n">end</span><span class="p">())</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="o">*</span><span class="n">it</span><span class="p">;</span>
 </code></pre></div></td></tr></table></div>
+<ul>
+<li>Qidirilgan qiymatga <strong>teng yoki undan katta</strong> birinchi elementni qaytaradi</li>
+<li>Competitive programming va interviewlarda ko‘p ishlatiladi</li>
+</ul>
 <hr />
-<h2 id="list-elementlarini-ozgartirish">List elementlarini o‘zgartirish<a class="headerlink" href="#list-elementlarini-ozgartirish" title="Permanent link">&para;</a></h2>
-<p><code>.front()</code> va <code>.back()</code> orqali birinchi va oxirgi element qiymatini o‘zgartirish mumkin:</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-5-1">1</a></span>
-<span class="normal"><a href="#__codelineno-5-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="n">cars</span><span class="p">.</span><span class="n">front</span><span class="p">()</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Opel&quot;</span><span class="p">;</span>
-<a id="__codelineno-5-2" name="__codelineno-5-2"></a><span class="n">cars</span><span class="p">.</span><span class="n">back</span><span class="p">()</span><span class="w">  </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Toyota&quot;</span><span class="p">;</span>
-</code></pre></div></td></tr></table></div>
+<h2 id="afzalliklari">Afzalliklari ✅<a class="headerlink" href="#afzalliklari" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Juda tez ishlaydi</li>
+<li>Katta massivlar uchun ideal</li>
+<li>Logarithmic murakkablik</li>
+</ul>
 <hr />
-<h2 id="element-qoshish">Element qo‘shish<a class="headerlink" href="#element-qoshish" title="Permanent link">&para;</a></h2>
-<h3 id="push_front">push_front()<a class="headerlink" href="#push_front" title="Permanent link">&para;</a></h3>
-<p>List boshiga element qo‘shadi:</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-6-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1"></a><span class="n">cars</span><span class="p">.</span><span class="n">push_front</span><span class="p">(</span><span class="s">&quot;Tesla&quot;</span><span class="p">);</span>
-</code></pre></div></td></tr></table></div>
-<h3 id="push_back">push_back()<a class="headerlink" href="#push_back" title="Permanent link">&para;</a></h3>
-<p>List oxiriga element qo‘shadi:</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-7-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1"></a><span class="n">cars</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="s">&quot;VW&quot;</span><span class="p">);</span>
-</code></pre></div></td></tr></table></div>
-<hr />
-<h2 id="element-ochirish">Element o‘chirish<a class="headerlink" href="#element-ochirish" title="Permanent link">&para;</a></h2>
-<h3 id="pop_front">pop_front()<a class="headerlink" href="#pop_front" title="Permanent link">&para;</a></h3>
-<p>List boshidan elementni o‘chiradi:</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-8-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1"></a><span class="n">cars</span><span class="p">.</span><span class="n">pop_front</span><span class="p">();</span>
-</code></pre></div></td></tr></table></div>
-<h3 id="pop_back">pop_back()<a class="headerlink" href="#pop_back" title="Permanent link">&para;</a></h3>
-<p>List oxiridan elementni o‘chiradi:</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-9-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1"></a><span class="n">cars</span><span class="p">.</span><span class="n">pop_back</span><span class="p">();</span>
-</code></pre></div></td></tr></table></div>
-<hr />
-<h2 id="list-olchami">List o‘lchami<a class="headerlink" href="#list-olchami" title="Permanent link">&para;</a></h2>
-<h3 id="size">size()<a class="headerlink" href="#size" title="Permanent link">&para;</a></h3>
-<p>List ichidagi elementlar sonini qaytaradi:</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-10-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1"></a><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">cars</span><span class="p">.</span><span class="n">size</span><span class="p">();</span>
-</code></pre></div></td></tr></table></div>
-<hr />
-<h2 id="list-boshligini-tekshirish">List bo‘shligini tekshirish<a class="headerlink" href="#list-boshligini-tekshirish" title="Permanent link">&para;</a></h2>
-<h3 id="empty">empty()<a class="headerlink" href="#empty" title="Permanent link">&para;</a></h3>
-<p>List bo‘sh bo‘lsa <code>true</code>, aks holda <code>false</code> qaytaradi:</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-11-1">1</a></span>
-<span class="normal"><a href="#__codelineno-11-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1"></a><span class="n">list</span><span class="o">&lt;</span><span class="n">string</span><span class="o">&gt;</span><span class="w"> </span><span class="n">cars</span><span class="p">;</span>
-<a id="__codelineno-11-2" name="__codelineno-11-2"></a><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">cars</span><span class="p">.</span><span class="n">empty</span><span class="p">();</span><span class="w"> </span><span class="c1">// true (1)</span>
-</code></pre></div></td></tr></table></div>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-12-1">1</a></span>
-<span class="normal"><a href="#__codelineno-12-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1"></a><span class="n">list</span><span class="o">&lt;</span><span class="n">string</span><span class="o">&gt;</span><span class="w"> </span><span class="n">cars</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="s">&quot;Volvo&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;BMW&quot;</span><span class="p">};</span>
-<a id="__codelineno-12-2" name="__codelineno-12-2"></a><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">cars</span><span class="p">.</span><span class="n">empty</span><span class="p">();</span><span class="w"> </span><span class="c1">// false (0)</span>
-</code></pre></div></td></tr></table></div>
-<hr />
-<h2 id="list-boylab-yurish-iteration">List bo‘ylab yurish (iteration)<a class="headerlink" href="#list-boylab-yurish-iteration" title="Permanent link">&para;</a></h2>
-<p>List’da index bo‘lmagani uchun oddiy <code>for</code> loop ishlamaydi ❌</p>
-<h3 id="notogri-usul-ishlamaydi">Noto‘g‘ri usul (ishlamaydi)<a class="headerlink" href="#notogri-usul-ishlamaydi" title="Permanent link">&para;</a></h3>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-13-1">1</a></span>
-<span class="normal"><a href="#__codelineno-13-2">2</a></span>
-<span class="normal"><a href="#__codelineno-13-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1"></a><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">cars</span><span class="p">.</span><span class="n">size</span><span class="p">();</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-13-2" name="__codelineno-13-2"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">cars</span><span class="p">[</span><span class="n">i</span><span class="p">];</span><span class="w"> </span><span class="c1">// XATO</span>
-<a id="__codelineno-13-3" name="__codelineno-13-3"></a><span class="p">}</span>
-</code></pre></div></td></tr></table></div>
-<h3 id="togri-usul-range-based-for-loop">To‘g‘ri usul — range-based for loop<a class="headerlink" href="#togri-usul-range-based-for-loop" title="Permanent link">&para;</a></h3>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-14-1">1</a></span>
-<span class="normal"><a href="#__codelineno-14-2">2</a></span>
-<span class="normal"><a href="#__codelineno-14-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1"></a><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">car</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">cars</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-14-2" name="__codelineno-14-2"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">car</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">;</span>
-<a id="__codelineno-14-3" name="__codelineno-14-3"></a><span class="p">}</span>
-</code></pre></div></td></tr></table></div>
-<blockquote>
-<p>💡 Eslatma: List’ni <strong>iterator</strong> yordamida ham aylanib chiqish mumkin (keyingi bo‘limlarda o‘rganiladi).</p>
-</blockquote>
+<h2 id="kamchiliklari">Kamchiliklari ❌<a class="headerlink" href="#kamchiliklari" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Faqat sorted data’da ishlaydi</li>
+<li>Oldin sort qilish kerak bo‘lishi mumkin</li>
+</ul>
 <hr />
 <h2 id="time-complexity-vaqt-murakkabligi">Time Complexity (Vaqt murakkabligi)<a class="headerlink" href="#time-complexity-vaqt-murakkabligi" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Amal</th>
+<th>Holat</th>
 <th>Murakkablik</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Boshidan qo‘shish/o‘chirish</td>
+<td>Best case</td>
 <td>O(1)</td>
 </tr>
 <tr>
-<td>Oxiridan qo‘shish/o‘chirish</td>
-<td>O(1)</td>
+<td>Worst case</td>
+<td>O(log n)</td>
 </tr>
 <tr>
-<td>Index orqali murojaat</td>
-<td>Mavjud emas</td>
-</tr>
-<tr>
-<td>Qidirish</td>
-<td>O(n)</td>
+<td>Average</td>
+<td>O(log n)</td>
 </tr>
 </tbody>
 </table>
 <hr />
-<h2 id="xulosa">Xulosa<a class="headerlink" href="#xulosa" title="Permanent link">&para;</a></h2>
+<h2 id="linear-search-vs-binary-search">Linear Search vs Binary Search<a class="headerlink" href="#linear-search-vs-binary-search" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Xususiyat</th>
+<th>Linear</th>
+<th>Binary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Data sorted bo‘lishi</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Tezligi</td>
+<td>Sekin</td>
+<td>Juda tez</td>
+</tr>
+<tr>
+<td>Murakkablik</td>
+<td>O(n)</td>
+<td>O(log n)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="qachon-binary-search-ishlatish-kerak">Qachon Binary Search ishlatish kerak?<a class="headerlink" href="#qachon-binary-search-ishlatish-kerak" title="Permanent link">&para;</a></h2>
+<p>✅ Agar:</p>
 <ul>
-<li>List — bog‘langan ro‘yxat</li>
-<li>Index orqali murojaat yo‘q</li>
-<li>Boshidan va oxiridan juda tez ishlaydi</li>
-<li>Tez-tez qo‘shish/o‘chirish talab qilinganda ideal</li>
+<li>ma’lumotlar sorted bo‘lsa</li>
+<li>katta massiv bo‘lsa</li>
+<li>tez qidiruv kerak bo‘lsa</li>
 </ul>
-<p>Keyingi mavzu: <a href="../stacks/"><strong>Stack (LIFO)</strong></a></p>
+<p>❌ Agar:</p>
+<ul>
+<li>data tartiblanmagan bo‘lsa</li>
+<li>juda kichik massiv bo‘lsa</li>
+</ul>
+<hr />
+<h2 id="xulosa">Xulosa 🧠<a class="headerlink" href="#xulosa" title="Permanent link">&para;</a></h2>
+<p>Binary Search — bu:</p>
+<ul>
+<li><strong>oddiy</strong></li>
+<li><strong>tez</strong></li>
+<li><strong>interview’larda juda muhim</strong></li>
+</ul>
+<p>Agar Binary Search’ni yaxshi tushunsang:
+➡️ <code>lower_bound</code>
+➡️ <code>upper_bound</code>
+➡️ interval search’lar oson bo‘ladi 🚀</p>
 
 
 
@@ -1277,6 +1472,28 @@
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../linear_search/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Linear Search">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Linear Search
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
