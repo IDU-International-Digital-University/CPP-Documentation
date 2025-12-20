@@ -1,8 +1,26 @@
+# ===============================
+# ASOSIY MA'LUMOTLAR
+# ===============================
+
 site_name: C++ Data Structures & Algorithms
 site_url: https://idu-international-digital-university.github.io/CPP-Documentation/
+site_description: >
+  C++ Data Structures va Algorithms bo‘yicha
+  to‘liq, tushunarli va bosqichma-bosqich
+  o‘zbek tilidagi dokumentatsiya.
+
+# GitHub repository (yuqorida icon chiqadi)
+repo_name: CPP-Documentation
+repo_url: https://github.com/idu-international-digital-university/CPP-Documentation
+edit_uri: edit/main/docs/
+
+# ===============================
+# NAVIGATION (MENYU)
+# ===============================
 
 nav:
   - Home: index.md
+
   - Data Structures:
       - Vectors: data_structures/vectors.md
       - Stack: data_structures/stacks.md
@@ -12,46 +30,125 @@ nav:
       - Map: data_structures/maps.md
       - Iterators: data_structures/iterators.md
       - Algorithms: data_structures/algorithms.md
+  - Searching Algorithms:
+      - Linear Search: algorithms/linear_search.md
+      - Binary Search: algorithms/binary_search.md
+# ===============================
+# THEME (TASHQI KO‘RINISH)
+# ===============================
 
 theme:
   name: material
+  language: en
+
+  # LOGO & ICON (keyinchalik qo‘shish mumkin)
+  icon:
+    repo: fontawesome/brands/github
+
+  # ---------- NAVIGATION UX ----------
   features:
-    # 1.1 Previous / Next tugmalari
-    # Material theme avtomatik qo‘llab-quvvatlaydi.
-    - navigation.footer
-    - navigation.tracking
-    - navigation.instant
-    # Sticky Sidebar + Scroll highlight
-    # Foydalanuvchi qayerda ekanini ko‘rib turadi.
+    # Yuqorida TAB menyu
+    - navigation.tabs
+
+    # Section’lar ochiq ko‘rinadi
     - navigation.sections
+
+    # Sidebar avtomatik ochiladi
     - navigation.expand
 
-  # Light / Dark rejim
-  # Material’da juda chiroyli ishlaydi.
+    # Sahifa yuqorisiga qaytish tugmasi
+    - navigation.top
+
+    # Scroll qayerdaligini ko‘rsatadi
+    - navigation.tracking
+
+    # Footer’da Previous / Next
+    - navigation.footer
+
+    # Sahifalar orasida tez o‘tish (SPA kabi)
+    - navigation.instant
+
+    # Qidiruv yaxshilanishlari
+    - search.highlight
+    - search.suggest
+
+    # Code block’da COPY tugmasi
+    - content.code.copy
+
+    # Tabs ichidagi kontentlar link bo‘lib qoladi
+    - content.tabs.link
+
+  # ---------- RANGLAR & REJIM ----------
   palette:
+    # Light mode
     - scheme: default
-      primary: indigo
-      accent: blue
+      primary: deep purple
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Dark mode
+
+    # Dark mode
     - scheme: slate
-      primary: indigo
-      accent: blue
+      primary: deep purple
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Light mode
 
-# Sahifa ichida TOC (mundarija)
-# Uzun sahifalar uchun 🔥
+  # ---------- SHRIYFTLAR ----------
+  font:
+    text: Inter        # Oddiy matn (zamonaviy)
+    code: JetBrains Mono  # Kod uchun (juda qulay)
+
+# ===============================
+# MARKDOWN IMKONIYATLARI
+# ===============================
+
 markdown_extensions:
+  # Sahifa ichida avtomatik mundarija (TOC)
   - toc:
       permalink: true
-  # Code block’larni professional qilish
-  - pymdownx.highlight
+      title: On this page
+
+  # Code highlight (rangli, professional)
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+
+  # Murakkab code block’lar
   - pymdownx.superfences
+
+  # Inline code `like this`
   - pymdownx.inlinehilite
 
-# Material’da instant search bor
+  # Tabs (misol: C++ / Python)
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  # Admonitions (NOTE, TIP, WARNING)
+  - admonition
+  - pymdownx.details
+
+# ===============================
+# PLUGINS
+# ===============================
+
 plugins:
-  - search
+  # Tezkor va aqlli qidiruv
+  - search:
+      lang: en
+
+# ===============================
+# FOOTER
+# ===============================
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/idu-international-digital-university
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/
+
+extra_css:
+  - stylesheets/extra.css
