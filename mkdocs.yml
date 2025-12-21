@@ -21,15 +21,37 @@ edit_uri: edit/main/docs/
 nav:
   - Home: index.md
 
+  # - Fundamentals:
+  #     - Introduction: fundamentals/introduction.md
+  #     - Syntax & Data Types: fundamentals/syntax_and_types.md
+  #     - Functions: fundamentals/functions.md
+  #     - Recursion: fundamentals/recursion.md
+      
   - Data Structures:
-      - Vectors: data_structures/vectors.md
+      - Vector: data_structures/vectors.md
       - Stack: data_structures/stacks.md
       - Queue: data_structures/queues.md
       - Deque: data_structures/deques.md
       - Set: data_structures/sets.md
       - Map: data_structures/maps.md
       - Iterators: data_structures/iterators.md
+      - Linked List (Singly): data_structures/linked_list_singly.md
+      - Doubly Linked List: data_structures/linked_list_doubly.md
+      - Circular Linked List: data_structures/linked_list_circular.md
+      - Trees: data_structures/trees.md
+      - Binary Search Tree (BST): data_structures/bst.md
+      - Graph: data_structures/graph.md
+      # - DFS / BFS Traversals: data_structures/traversals.md
       - Algorithms: data_structures/algorithms.md
+  # - Data Structures:
+  #     - Vectors: data_structures/vectors.md
+  #     - Stack: data_structures/stacks.md
+  #     - Queue: data_structures/queues.md
+  #     - Deque: data_structures/deques.md
+  #     - Set: data_structures/sets.md
+  #     - Map: data_structures/maps.md
+  #     - Iterators: data_structures/iterators.md
+  #     - Algorithms: data_structures/algorithms.md
   - Searching Algorithms:
       - Linear Search: algorithms/linear_search.md
       - Binary Search: algorithms/binary_search.md
