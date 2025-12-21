@@ -2,54 +2,206 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://idu-international-digital-university.github.io/CPP-Documentation/</loc>
-         <lastmod>2025-12-20</lastmod>
+         <lastmod>2025-12-21</lastmod>
     </url>
     <url>
          <loc>https://idu-international-digital-university.github.io/CPP-Documentation/feature/</loc>
-         <lastmod>2025-12-20</lastmod>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/advanced/hashing/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/advanced/space_complexity/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/advanced/time_complexity/</loc>
+         <lastmod>2025-12-21</lastmod>
     </url>
     <url>
          <loc>https://idu-international-digital-university.github.io/CPP-Documentation/algorithms/binary_search/</loc>
-         <lastmod>2025-12-20</lastmod>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/algorithms/bubble_sort/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/algorithms/insertion_sort/</loc>
+         <lastmod>2025-12-21</lastmod>
     </url>
     <url>
          <loc>https://idu-international-digital-university.github.io/CPP-Documentation/algorithms/linear_search/</loc>
-         <lastmod>2025-12-20</lastmod>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/algorithms/merge_sort/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/algorithms/quick_sort/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/algorithms/selection_sort/</loc>
+         <lastmod>2025-12-21</lastmod>
     </url>
     <url>
          <loc>https://idu-international-digital-university.github.io/CPP-Documentation/data_structures/algorithms/</loc>
-         <lastmod>2025-12-20</lastmod>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/data_structures/bfs/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/data_structures/bst/</loc>
+         <lastmod>2025-12-21</lastmod>
     </url>
     <url>
          <loc>https://idu-international-digital-university.github.io/CPP-Documentation/data_structures/deques/</loc>
-         <lastmod>2025-12-20</lastmod>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/data_structures/dfs/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/data_structures/graph/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/data_structures/introduction/</loc>
+         <lastmod>2025-12-21</lastmod>
     </url>
     <url>
          <loc>https://idu-international-digital-university.github.io/CPP-Documentation/data_structures/iterators/</loc>
-         <lastmod>2025-12-20</lastmod>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/data_structures/linked_list_circular/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/data_structures/linked_list_doubly/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/data_structures/linked_list_singly/</loc>
+         <lastmod>2025-12-21</lastmod>
     </url>
     <url>
          <loc>https://idu-international-digital-university.github.io/CPP-Documentation/data_structures/lists/</loc>
-         <lastmod>2025-12-20</lastmod>
+         <lastmod>2025-12-21</lastmod>
     </url>
     <url>
          <loc>https://idu-international-digital-university.github.io/CPP-Documentation/data_structures/maps/</loc>
-         <lastmod>2025-12-20</lastmod>
+         <lastmod>2025-12-21</lastmod>
     </url>
     <url>
          <loc>https://idu-international-digital-university.github.io/CPP-Documentation/data_structures/queues/</loc>
-         <lastmod>2025-12-20</lastmod>
+         <lastmod>2025-12-21</lastmod>
     </url>
     <url>
          <loc>https://idu-international-digital-university.github.io/CPP-Documentation/data_structures/sets/</loc>
-         <lastmod>2025-12-20</lastmod>
+         <lastmod>2025-12-21</lastmod>
     </url>
     <url>
          <loc>https://idu-international-digital-university.github.io/CPP-Documentation/data_structures/stacks/</loc>
-         <lastmod>2025-12-20</lastmod>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/data_structures/trees/</loc>
+         <lastmod>2025-12-21</lastmod>
     </url>
     <url>
          <loc>https://idu-international-digital-university.github.io/CPP-Documentation/data_structures/vectors/</loc>
-         <lastmod>2025-12-20</lastmod>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/fundamentals/arrays_and_pointers/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/fundamentals/control_structures/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/fundamentals/functions/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/fundamentals/introduction/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/fundamentals/memory_basics/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/fundamentals/recursion/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/fundamentals/strings_and_io/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/fundamentals/syntax_and_types/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/interview/common_questions/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/interview/practice_problems/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/memory/arrays/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/memory/dynamic_memory/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/memory/file_handling/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/memory/pointers/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/memory/strings/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/memory/structs/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/oop/classes_objects/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/oop/incapsulation/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/oop/inheritance/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/oop/polymorphism/</loc>
+         <lastmod>2025-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://idu-international-digital-university.github.io/CPP-Documentation/oop/virtual_functions/</loc>
+         <lastmod>2025-12-21</lastmod>
     </url>
 </urlset>
